@@ -1,0 +1,56 @@
+<?php echo form_open_multipart('admin_user', array('name'=>'list_exam','id' => 'list_exam')); ?>
+<div class="adminmainlist">
+		<?php 
+		if(count($userdetails) > 0){
+/* list headings starts here*/		
+		?>
+		<div class="adminpagebanner">
+			<div class="adminpagetitle"><?php echo $page_title?></div>
+		</div>
+		<div class="clearboth"> </div>
+		<div class="admininnercontentdiv">
+			<div class="listdata">
+				<div class="adminlistheadings" style="width:10%;">Sl. No</div>
+				<div class="adminlistheadings" style="width:25%;">Course</div>
+				<div class="adminlistheadings" style="width:15%;">Licence Type</div>
+				<div class="adminlistheadings" style="width:10%;">View</div>
+			</div>
+			<div class="clearboth"> </div>
+		<?php  
+	/* list headings ends here*/
+				$count=1; 
+			   if ($this->uri->segment(3)){
+					$count = $count+$this->uri->segment(3);
+				} 
+				   foreach($userdetails as $data){
+				  $bg_color = ($count%2==0) ? 'div_row_first' : 'div_row_second';
+	/* data list starts here */ 
+				 ?>
+				  <div class="<?php print($bg_color);?>">
+				 	<div class="floatleft" style="width:10%;"><?php print $count;?></div> 
+				 	<div class="floatleft" style="width:25%;"><?php if($data->emailid !='') {echo $data->emailid; } else { echo  '&nbsp' ;} ?></div> 
+				 	<div class="floatleft" style="width:15%;"><?php  if($data->licensetype !=''){ echo $data->licensetype;} else { echo  '&nbsp' ;} ?></div> 
+				 	<div class="floatleft" style="width:10%;">
+				 		<?php if('A' == $data->status){
+									echo "Active";
+								 } else {
+									echo "Freeze";
+								 }	?>
+					</div> 
+					<div class="floatleft" style="width:5%;"><a href="<?php echo base_url()?>admin_user/view_users/<?php echo $data->id; ?>">View</a></div> 
+					<div class="floatleft" style="width:5%;"><a href="<?php echo base_url()?>admin_user/edit_users/<?php echo $data->id; ?>">Edit</a></div> 
+					<div class="floatleft" style="width:7%;">Freeze</div> 
+					<div class="floatleft" style="width:11%;">Course Details</div> 
+					<div class="floatleft" style="width:12%;">Order Details</div> 
+				</div>
+				<div class="clearboth"> </div>
+				<?php $count++; 
+	/* data list ends here */ 			
+			}?>
+		</div>
+		<div class="pagination"><?php  echo $paginate;?></div>
+		<div style="clear:both">&nbsp;</div>
+		<?php } ?>
+</div>
+<input type="hidden" id="hiduserid" name="hiduserid"  value="<?php if(isset($_POST['hiduserid'])){echo $_POST['hiduserid'];}?>" />
+<?php echo form_close();?>

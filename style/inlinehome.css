@@ -1,0 +1,58 @@
+.twtr-hd{
+        display:none;
+    }
+    .twtr-ft{
+        display:none;
+    }
+    .twtr-widget .twtr-tweet{
+        border:1px solid #272727;
+    }
+    .twtr-timestamp{
+        color:white;
+    }
+    .mt_15{margin-top:15px;}
+    .iicon_contr{margin-bottom:7px;width:258px;}
+    .flpDiv{width:961px;height:563px;float:left;position:relative;}
+    .slshwDiv{visibility:hidden;width:961px;height:563px;float:left; background:#A2A5A5;}
+    .dispNone{display:none;}
+    #twtr-widget-1 .twtr-new-results, #twtr-widget-1 .twtr-results-inner, #twtr-widget-1 .twtr-timeline {
+        background:transparent none repeat scroll 0 0 !important;
+    }
+    #twtr-widget-1 .twtr-doc, #twtr-widget-1 .twtr-hd a, #twtr-widget-1 h3, #twtr-widget-1 h4, #twtr-widget-1 .twtr-popular{
+        background-color:transparent !important;
+    }
+    .like_button_dark div.connect_widget_button_count_count {
+        background-color:green !important;
+        border-color:#D7D7D7;
+    }
+    .connect_widget_button_count_count {
+        background:#FFFFFF none repeat scroll 0 0;
+        border:1px solid #D1D1D1;
+        float:left;
+        font-weight:normal;
+        height:14px;
+        line-height:14px;
+        margin-left:1px;
+        min-width:15px;
+        padding:1px 2px;
+        text-align:center;
+        white-space:nowrap;
+    }
+    .cl261{
+    width:261px;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif!important;
+        text-align: left!important;
+        padding: 0!important;
+        margin-top:0!important;
+        background:url(<?php echo $image_url . 'bg_01.jpg' ?>) #000000 no-repeat center top !important;
+        height:auto!important;
+    }
+    .loading{width:50px;height:50px;margin:0 auto;display:block;background:url(<?php echo $image_url.'spinner.gif' ?>) transparent no-repeat left top;}
+#blog_post_wrapper .loading{margin-top:110px;}
+#tweets_wrapper .loading{margin-top:150px;}
+.tweet_colr{color:#00D4D0;}
+.va-b{vertical-align:bottom;}
+.cp{cursor:pointer;}
+#youtuve_vid{width:435px;height:268px;background: black;}

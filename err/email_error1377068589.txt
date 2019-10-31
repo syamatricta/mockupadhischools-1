@@ -1,0 +1,81 @@
+ SUCCESS-------- 220 mx.google.com ESMTP yo2sm8081800pab.8 - gsmtp
+<br /><pre>hello: 250-mx.google.com at your service, [207.198.105.11]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH XOAUTH2 PLAIN-CLIENTTOKEN
+250-ENHANCEDSTATUSCODES
+250 PIPELINING
+</pre><pre>from: 250 2.1.0 OK yo2sm8081800pab.8 - gsmtp
+</pre><pre>to: 250 2.1.5 OK yo2sm8081800pab.8 - gsmtp
+</pre><pre>data: 354  Go ahead yo2sm8081800pab.8 - gsmtp
+</pre>250 2.0.0 OK 1377066970 yo2sm8081800pab.8 - gsmtp
+<br /><pre>quit: 221 2.0.0 closing connection yo2sm8081800pab.8 - gsmtp
+</pre>Your message has been successfully sent using the following protocol: smtp<br /><pre>From: "Adhi Schools" <registration@adhischools.com>
+Return-Path: <registration@adhischools.com>
+To: kartik@adhischools.com
+Reply-To: "Adhi Schools" <registration@adhischools.com>
+Subject: =?utf-8?Q?Registration_in_process?=
+X-Sender: registration@adhischools.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5214662aee4d4@adhischools.com>
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_5214662aee8bb&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_5214662aee8bb
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Dear Administrator, A new registration is in process. Please find the
+details belowAccount Details
+ 
+ First name
+ Katherine 
+ 
+ 
+ Last name
+ Greenspon 
+ 
+ 
+ email
+ katiegreenspon@gmail.com 
+ 
+ 
+ phone number
+ 3106833071 
+ 
+ With regards,Adhi Schools
+
+
+--B_ALT_5214662aee8bb
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Administrator,&lt;br/&gt;&lt;br/&gt; A new registration is in process. Please find=
+ the details below&lt;br/&gt;&lt;br/&gt;&lt;b&gt;Account Details&lt;/b&gt;&lt;br&gt;&lt;table cellpadding=3D=
+&quot;4&quot; cellspacing=3D&quot;0&quot; border=3D&quot;1&quot; width=3D&quot;300&quot; style=3D&quot;border:#CCCCCC th=
+in;&quot;&gt;
+ 							&lt;tr&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;First name&lt;/td&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Katherine &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Last name&lt;/td&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Greenspon &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;email&lt;/td&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;katiegreenspon@gmail.com &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;phone number&lt;/td&gt;
+ &lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;3106833071 &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;&lt;br&gt;&lt;br&gt;With regards,&lt;br&gt;&lt;br&gt;Adhi Schools
+
+--B_ALT_5214662aee8bb--</pre>

@@ -1,0 +1,27 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url.'bg_01.jpg'?>) #000000 no-repeat center top;
+height:auto;
+}
+ #relatedclass {
+position:fixed!important;
+z-index:1001!important;
+}
+.rel_inline_css{
+left: 450px !important;
+top: 130px !important;
+width: 720px !important;
+display:none;
+}
+.popuptd1{background:url(<?php echo $image_url.'popup/popup_top_left.png'?>) no-repeat left bottom;}
+.popuptd2{background:url(<?php echo $image_url.'popup/popup_top_repeat.png'?>) repeat-x bottom;}
+.popuptd3{background:url(<?php echo $image_url.'popup/popup_top_right.png'?>) no-repeat right bottom;}
+.popuptd4{background:url(<?php echo $image_url.'popup/popup_left_repeat.png'?>) repeat-y;}
+.popuptd5{background-color:#000;}
+.popuptd6{background:url(<?php echo $image_url.'popup/popup_right_repeat.png'?>) repeat-y;}
+.popuptd7{background:url(<?php echo $image_url.'popup/popup_bottom_left.png'?>) no-repeat left top;}
+.popuptd8{background:url(<?php echo $image_url.'popup/popup_bottom_repeat.png'?>) repeat-x top;}
+.popuptd9{background:url(<?php echo $image_url.'popup/popup_bottom_right.png'?>) no-repeat right top;}

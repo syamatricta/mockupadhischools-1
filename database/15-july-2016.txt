@@ -1,0 +1,35 @@
+
+
+CREATE TABLE IF NOT EXISTS `adhi_flyer_head_images` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `file_name` varchar(250) NOT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+--
+-- Dumping data for table `adhi_flyer_head_images`
+--
+
+INSERT INTO `adhi_flyer_head_images` (`id`, `name`, `file_name`, `created_at`, `updated_at`) VALUES
+(1, 'Coldwell Bankers', 'coldwell.jpg', '2016-07-15 00:00:00', '0000-00-00 00:00:00'),
+(2, 'Remax', 'remax.jpg', '2016-07-15 00:00:00', '0000-00-00 00:00:00'),
+(3, 'Century 21', 'century.jpg', '2016-07-15 00:00:00', '0000-00-00 00:00:00'),
+(4, 'Rodeo Realty', 'rodeo.jpg', '2016-07-15 00:00:00', '0000-00-00 00:00:00'),
+(5, 'George Realty', 'george-realty.jpg', '2016-07-20 00:00:00', '0000-00-00 00:00:00');
+
+CREATE TABLE IF NOT EXISTS `adhi_flyers` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `title` varchar(50) NOT NULL,
+  `head_image` int(11) NOT NULL COMMENT 'id from adhi_flyer_head_images',
+  `heading` varchar(250) NOT NULL,
+  `sub_heading` varchar(250) NOT NULL,
+  `date_time` datetime NOT NULL,
+  `created_by` int(11) NOT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+

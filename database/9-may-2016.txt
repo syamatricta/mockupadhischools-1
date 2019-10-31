@@ -1,0 +1,22 @@
+
+CREATE TABLE IF NOT EXISTS `adhi_trial_users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `reg_user_id` int(11) NOT NULL COMMENT 'id from adhi_user',
+  `first_name` varchar(80) NOT NULL,
+  `last_name` varchar(80) NOT NULL,
+  `email` varchar(80) NOT NULL,
+  `password` varchar(250) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `ip_address` varchar(30) NOT NULL,
+  `status` tinyint(2) NOT NULL COMMENT '0(pending) , 1(active), 2(moved to adhi_users), 3 - expired',
+  `activation_code` varchar(100) NOT NULL,
+  `activation_code_sent_at` datetime NOT NULL,
+  `activated_at` datetime NOT NULL,
+  `will_expire_at` datetime NOT NULL COMMENT 'date will add after activation',
+  `reminder_sent` tinyint(1) NOT NULL,
+  `created_at` datetime NOT NULL,
+  `last_loggedin_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `email` (`email`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

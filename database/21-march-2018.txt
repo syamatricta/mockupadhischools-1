@@ -1,0 +1,3 @@
+ALTER TABLE `adhi_orderdetails` ADD `tracking_update_error` TEXT NULL COMMENT 'saving error while updating fedex tracking update as cron' AFTER `status` ;
+
+ALTER TABLE `adhi_orderdetails` CHANGE `status` `status` CHAR( 1 ) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL DEFAULT 'Q' COMMENT 'Q for Queued, S for Shipped, C for Completed, E for Error while tracking update';

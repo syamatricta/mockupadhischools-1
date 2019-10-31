@@ -1,0 +1,17 @@
+ALTER TABLE `adhi_orderdetails` ADD `is_promocode_applied` BOOLEAN NULL DEFAULT FALSE COMMENT '1- applied',
+ADD `promocode_details` TEXT NULL DEFAULT NULL COMMENT 'json value';
+
+
+CREATE TABLE IF NOT EXISTS `adhi_promo_codes` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `code` varchar(30) NOT NULL,
+  `start_at` datetime NOT NULL,
+  `end_at` datetime NOT NULL,
+  `apply_to` text NOT NULL,
+  `redeem_type` smallint(1) NOT NULL COMMENT '1- fixed rate, 2 - percentage',
+  `redeem_value` float NOT NULL,
+  `status` tinyint(1) NOT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

@@ -1,0 +1,2 @@
+ALTER TABLE `adhi_course_price` ADD `books_count` TINYINT(1) NOT NULL DEFAULT '1' COMMENT 'No of books' AFTER `list_type`;
+ALTER TABLE `adhi_orderdetails` ADD `packaging_type` VARCHAR( 50 ) NULL AFTER `ship_method`;

@@ -1,0 +1,27 @@
+.navigation{
+    background: #ececec;
+    height: 26px;
+    position: relative;
+    padding-right: 15px;
+    padding-top: 13px;
+    text-align: right;
+    float: left;
+    width: 98%;
+}
+.navigation .wp-pagenavi span.pages, .navigation .wp-pagenavi a.nextpostslink, .navigation .wp-pagenavi a.previouspostslink,
+.navigation .wp-pagenavi span.current, .navigation .wp-pagenavi a.page{
+    background: url(images/navigationbg.png) repeat-x;
+    width: 100%;
+    font-size:85%;
+    height:19px;
+    margin-left:2px;
+    padding:4px 6px;
+    border: 1px solid #e7e7e7;
+}
+.navigation .wp-pagenavi span.current{
+    font-weight: bold;
+}
+.navigation .wp-pagenavi a.page:hover{
+    font-weight: bold;
+    text-decoration: none;
+}

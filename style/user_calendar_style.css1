@@ -1,0 +1,218 @@
+/* "Photo Pro" Template by Dieter Schneider | www.csstemplateheaven.com */
+#divUserCalendar { height:410px; min-height:400px;height: auto !important;}
+#divUserCalendar a {color: #FFC}
+
+#divUserCalendar p {padding: 15px 0; text-align: justify}
+
+#divUserCalendar h2 { color: #616D7E; font-weight: normal; letter-spacing: .15em}
+
+/* navigation*/
+
+#divUserCalendar table {
+	border-collapse: separate;
+	border: 1px solid #9DABCE;
+	border-width: 0px 0px 1px 1px;
+	margin: 10px auto;
+	font-size: 20px;
+}
+#divUserCalendar td, th {
+	width: 50px;
+	height: 45px;
+	/*text-align: center;*/
+	vertical-align: top;
+        font-size: 14px;
+	color: #444;
+	position: relative;
+	border: 1px solid #C8BBBE;
+}
+#divUserCalendar th {
+	height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#divUserCalendar td:hover, th:hover {
+	background-color:#AAA;
+	color: #222;
+}
+#divUserCalendar td.date_has_event {
+	background-color:#CFECEC;
+	color: #566D7E;
+	cursor:pointer;
+}
+#divUserCalendar td.date_has_event:hover {
+	background-color:#87AFC7;
+	color: white;
+	cursor:pointer;
+}
+
+#divUserCalendar td.padding {
+	background-color:#8C8E8D;
+}
+#divUserCalendar td#today {
+	background-color:#25587E;
+	color: white;
+}
+#divUserCalendar td#today:hover {
+	background-color:#3090C7;
+}
+#divUserCalendarnw { height:410px; min-height:400px;height: auto !important;}
+#divUserCalendarnw a {color: #FFC}
+
+#divUserCalendarnw p {padding: 15px 0; text-align: justify}
+
+#divUserCalendarnw h2 { color: #616D7E; font-weight: normal; letter-spacing: .15em}
+
+/* navigation*/
+
+#divUserCalendarnw table {
+	border-collapse: separate;
+	border: 1px solid #9DABCE;
+	border-width: 0px 0px 1px 1px;
+	margin: 10px auto;
+	font-size: 20px;
+}
+#divUserCalendarnw td, th {
+	width: 80px;
+	height: 50px;
+	/*text-align: center;*/
+	vertical-align: top;
+        font-size: 14px;
+	color: #444;
+	position: relative;
+	/*border: 1px solid #C8BBBE;*/
+        border: 1px solid #CCCCCC;
+}
+#divUserCalendarnw th {
+	height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+}
+#divUserCalendarnw td:hover, th:hover {
+	background-color:#AAA;
+	color: #222;
+}
+#divUserCalendarnw td.date_has_event {
+	/*background-color:#CFECEC;*/
+        background-color:#C1CDCD;
+	color: #566D7E;
+	cursor:pointer;
+}
+.date_has_eventdiv {
+	/*background-color:#CFECEC;
+       // position: relative; vertical-align: top; z-index: 300;*/
+        /*background-color:#C1CDCD;*/
+        width:80px;height:20px;float:left;
+	color: #566D7E;
+	cursor:pointer;
+}
+
+#divUserCalendarnw td.date_has_event:hover {
+	background-color:#87AFC7;
+	color: white;
+	cursor:pointer;
+}
+
+#divUserCalendarnw td.padding {
+	background-color:#8C8E8D;
+}
+#divUserCalendarnw td#today {
+	background-color:#25587E;
+	color: white;
+}
+#divUserCalendarnw td#today:hover {
+	background-color:#3090C7;
+}
+
+.tooltipnwdef{
+        width:80px;height:20px;float:left;background:#C0D9D9;
+}
+.selectedDay {
+	background-color:#87AFC7 !important;
+	color: white !important;
+	cursor:pointer;
+}
+.events {
+	position: relative;
+}
+.events ul {
+	text-align: left;
+	position: absolute;
+	display: none;
+	z-index: 1000;
+	padding: 15px;
+	/*background: #E7ECF2 url(../../images/popup.png) no-repeat;*/
+	color: white;
+	border: 1px solid white;
+	font-size: 15px;
+	width: 200px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-border-radius: 3px;
+	list-style: none;
+	color: #444444;
+	-webkit-box-shadow: 0px 8px 8px #333;
+}
+.events li {
+	padding-bottom: 5px;
+}
+.events li span {
+	display: block;
+	font-size: 12px;
+	text-align: justify;
+	color: #555;
+}
+.events li span.title {
+	font-weight: bold;
+	color: #222;
+}
+
+#divUserCalendar th a{
+	text-decoration:none;
+	font-size:120%;
+	font-weight:bold;
+	color: #000;
+	outline-width:0;
+}
+#divUserCalendarnw th a{
+	text-decoration:none;
+	font-size:120%;
+	font-weight:bold;
+	color: #000;
+	outline-width:0;
+}
+
+.dayevents{
+	border: 1px solid #666666;
+	padding: 10px;
+	text-align: left;
+}
+
+.dayevents h3{
+	background:none repeat scroll 0 0 #303030;
+	color:#FFFFFF;
+	font-weight:normal;
+	letter-spacing:0.15em;
+	padding:10px;
+}
+
+#divDisplayEventList {
+	float:left;
+	margin:0px 10px 0px 10px;
+	padding:5px;
+	width:97%;
+	display:none;
+}
+
+.popup_draghandle{
+	color:white;
+}
+
+.tooltip:hover span {
+        background:#98AFC7;
+        border:1px solid #153E7E;
+        color: 	#151B54;
+	display:inline;
+	margin-top:-30px;
+	margin-left:50px !important;
+}

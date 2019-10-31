@@ -1,0 +1,52 @@
+
+CREATE TABLE IF NOT EXISTS `adhi_career_events_master` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `subregion_id` int(11) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `description` text NOT NULL,
+  `parking_info` text NOT NULL,
+  `date` date NOT NULL,
+  `repeat_status` tinyint(1) NOT NULL DEFAULT '0' COMMENT '0-none,1-daily,2-weekly',
+  `repeat_till` date NOT NULL,
+  `time_start` time NOT NULL,
+  `time_end` time NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT '1',
+  `created_date` datetime NOT NULL,
+  `updated_date` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `course_id` (`title`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+
+
+CREATE TABLE IF NOT EXISTS `adhi_career_events` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `events_master_id` int(11) NOT NULL,
+  `totalcapacity` int(11) NOT NULL DEFAULT '0',
+  `start` datetime NOT NULL,
+  `end` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `events_master_id` (`events_master_id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+
+CREATE TABLE IF NOT EXISTS `adhi_career_event_bookings` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `event_id` int(11) NOT NULL,
+  `event_date` date NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `first_name` varchar(100) NOT NULL,
+  `last_name` varchar(100) NOT NULL,
+  `email` varchar(100) NOT NULL,
+  `phone` varchar(30) NOT NULL,
+  `ip_address` varchar(15) NOT NULL,
+  `attended` tinyint(1) NOT NULL COMMENT '0-not attended,1-attended',
+  `status` tinyint(1) NOT NULL,
+  `created_by` int(11) NOT NULL COMMENT 'admin id',
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `event_id` (`event_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;

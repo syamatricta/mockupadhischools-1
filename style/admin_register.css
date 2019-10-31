@@ -1,0 +1,1047 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 0px;
+	/*background-color:#ffffff;*/
+	margin-top:0px;
+	background-image:url(<?php echo $image_url ?>bodybackground.jpg); 
+	background-repeat:repeat-x;
+	height:auto;
+	}
+p{
+	padding:0px;
+	margin:0px;
+}
+img{
+	border:0px;
+}
+DIV, TR, TD, SPAN, INPUT, SELECT{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-align:left;
+}
+TEXTAREA{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+th{
+	background-color:#E1E1E1; height:25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.floatleft{
+	float:left;
+}
+.floatright{
+	float:right;
+}
+.clearboth{
+	clear:both;
+}
+
+ .placelogo {
+ 	float:left; 
+ 	padding-left:13px;
+ }
+
+.headernavmain{
+	float:left;	
+ 	width:100%;
+}
+.headerleftnav{
+	float:left;
+}
+.headermiddlenav_reg{
+	float:left;
+	width:873px;
+	height:55px;
+	background-image:url(<?php echo $image_url ?>adhi_middle_nav.jpg); 
+	background-repeat:repeat-x;
+}
+
+
+.navigationmain_reg{
+	float:left;
+	margin-top:8px;
+}
+.navigationtext_reg{
+	float:left;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px 64px 0px 64px;
+	
+}
+.navigationtext_reg a:visited,.navigationtext a:link,.navigationtext a:hover,.navigationtext a:active
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+
+.navigationtextlog{
+	float:left;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px 45px 0px 45px;
+	
+	
+}
+.navigationtextlog a:visited,.navigationtextlog a:link,.navigationtextlog a:hover,.navigationtextlog a:active
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+.flashtwittermain{
+	float:left;
+	width:893px;
+}
+.twitterfacebook{
+	float:left;
+}
+.homebuttons{
+	float:left;
+	padding-bottom:10px;
+}
+.homeloginbuttons{
+	float:left;
+	padding-bottom:5px;
+	text-align:center;
+	width:180px;
+}
+.clientlogin{
+	float:left;
+	margin-left:10px;
+	width:221px;
+	border:1px solid #E3E1EC;
+}
+.logindet{
+	float:left;
+	padding:8px 19px 0px 19px;
+}
+.loginhead{
+	float:left;
+	color:#000000;
+	font-size:16px;
+	font-weight:bold;
+	width:179px;
+}
+.login_error{
+	float:left; 
+	height:32px; 
+	border:1px solid #FFFFFF;
+}
+.logintext{
+	float:left;
+	padding-bottom:10px;
+	width:70px;
+	font-weight:bold;
+}
+.logintextbox{
+	float:left;
+	padding-bottom:10px;
+	color:#E3E1EC;
+}
+.page_error
+{
+	color:#FF0000;
+	font-weight:bold;
+}
+.page_time_error
+{
+	float:left;
+	color:#FF0000;
+	font-weight:bold;
+}
+.time_alert{
+	float:left;	
+	color:#FF0000;
+	width:90px;
+	font-weight:bold;
+}
+.red_star{
+	color:#FF0000;
+}
+.textbox{
+	color:#B9B9B9;
+	border:1px solid #E3E1EC;
+	height:20px;
+	padding-left:5px;
+	width:170px;
+}
+.flashplayer{
+ 	float:right;
+ 	margin-left:10px;
+ 	background-color:#717171;
+ }
+.forgotpassword{
+	float:left;
+	padding:0px 0px 14px 10px;
+	color:#B9B9B9;
+	width:170px;
+	text-align:center;
+}
+.forcedlogin{
+	float:left; 
+	width:100%; 
+	padding:0px 0px 2px 0px;
+	color:#B9B9B9;
+	text-align:center;
+}
+.forgotpassword a:visited,.forgotpassword a:link,.forgotpassword a:hover,.forgotpassword a:active{
+	text-decoration:none;
+	color:#B9B9B9;
+}
+.homerealestate{
+	float:left;
+	margin-right:10px;
+	
+}
+.homequestions{
+	float:right;
+	width:445px;
+}
+.realestatemiddle{
+	float:left;
+	width:423px;
+	height:156px;
+	background-image:url(<?php echo $image_url ?>realeatate_middle.jpg); 
+	background-repeat:repeat-x;
+}
+
+.realestateimg{
+	float:left;
+	padding-top:20px;
+}
+.qaimg{
+	float:left;
+	padding-top:50px;
+	margin-left:10px;
+}
+.realestatetextmain{
+	float:left;
+	padding-top:40px;
+	width:267px;
+	margin-left:10px;
+}
+.thinkabout{
+	color:#999999;
+	font-size:18px;
+	font-weight:bold;
+}
+.realestate{
+	color:#D20104;
+	font-size:22px;
+	font-weight:bold;
+}
+.gotquestion{
+	color:#464D55;
+	font-size:22px;
+	font-weight:bold;
+}
+.realestatecontent{
+	float:left;
+	padding-bottom:8px;
+	padding-top:2px;
+	color:#7E7E7E;
+	width:100%;
+	height:45px;
+	}
+.realestateclick a:visited,.realestateclick a:link,.realestateclick a:hover,.realestateclick a:active{
+	float:left;
+	padding-bottom:10px;
+	padding-top:2px;
+	color:#7E7E7E;
+	text-decoration:underline;
+}
+
+
+.copyright{
+	float:left;
+	padding-left:10px;
+}
+.blankdiv{
+	float:left;
+	width:420px;
+}
+
+.navigation_bottom{
+	float:left;
+	margin:0px 5px 0px 5px;
+}
+.navigation_bottom a:visited,.navigation_bottom a:link,.navigation_bottom a:hover,.navigation_bottom a:active{
+	text-decoration:none;
+	color:#7E7E7E;
+}
+.question{
+	float:left;
+	width:250px;
+}
+.clientmainlist{
+	float:left;
+	width:99%;
+	padding-bottom:10px;
+	border:1px solid #e1e5dc;
+	margin-left:1px;
+}
+.clientinnercontentdiv{
+	margin:auto; 
+	width:98%;
+}
+.clientpagebanner{
+	float:left;
+	/*background-color:#A80403;*/
+	padding:10px 0px 10px 0px; 
+	width:100%;
+	color:#000000;
+	text-align:left;
+}
+.clienttopheads{
+	float:left;
+	background-color:#A80403;
+	padding-left:2px; 
+	width:100%;
+	color:#ffffff;
+	text-align:left;
+}
+.clientpagetitle{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	padding-left:10px;
+}
+.leftsideheadings_view{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:15%;
+ 	text-align:left;
+ }
+ .rightsidedata_view{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:80%;
+ 	text-align:left;
+ }
+ .display_error_msg 
+{
+    background-color:#FFAEAE;
+	border:1px solid #D893A1;
+	color:#333333;
+    font-size:12px;
+    font-weight:bold;
+    height:23px;
+    padding-left:30px;
+    padding-top:5px;
+	width:90%;
+}
+#profileviewmain{
+	float:left;
+	width:70%;
+	padding-right:10px;
+	padding-left:30px;
+}
+.middlecolon{
+ 	float:left;
+ 	padding:10px 0px 10px 0px;
+ 	width:5%;
+ 	text-align:center;
+ }
+.leftsideheadings_profileview{
+ 	float:left;
+ 	padding:10px 0px 10px 0px;
+ 	width:35%;
+ 	text-align:right;
+ }
+ .rightsidedata_profileview{
+ 	float:left;
+ 	padding:10px 0px 10px 0px;
+ 	width:60%;
+ 	text-align:left;
+ }
+ .middlecolon_profile_edit{
+ 	float:left;
+ 	padding:4px 0px 4px 0px;
+ 	width:5%;
+ 	text-align:center;
+ }
+.leftsideheadings_profileedit{
+ 	float:left;
+ 	padding:4px 0px 4px 0px;
+ 	width:30%;
+ 	text-align:right;
+ }
+ .rightsidedata_profileedit{
+ 	float:left;
+ 	padding:4px 0px 4px 0px;
+ 	width:65%;
+ 	text-align:left;
+ }
+ .middlecolon_profile_edit_new{
+ 	float:left;
+ 	padding:6px 0px 6px 0px;
+ 	width:5%;
+ 	text-align:center;
+ }
+.leftsideheadings_profileedit_new{
+ 	float:left;
+ 	padding:6px 0px 6px 0px;
+ 	width:30%;
+ 	text-align:right;
+ }
+ .rightsidedata_profileedit_new{
+ 	float:left;
+ 	padding:6px 0px 6px 0px;
+ 	width:65%;
+ 	text-align:left;
+ }
+.instruction{
+	color:#8C8E8D;
+	width:30%;
+}
+.page_success{
+	color:#659F1B;
+	font-weight:bold;
+}
+#sitepagemain{
+	float:left;
+	width:97%;
+	padding:10px 10px 10px 10px; 
+}
+.sitepagetitle{
+	font-weight:bold;
+	color:#FF0000;
+	font-size:18px;
+	padding-bottom:10px;
+}
+.sitepagecontent{
+	float:left;
+	text-align:left;
+}
+#maindiv{
+	float:left;
+	padding-top:20px;
+	width:100%;
+}
+#innerpagemain{
+	float:left;
+	width:99.4%;
+	margin-left:2px;
+}
+.innerbackground_left{
+	float:left;
+	
+}
+.innerbackground_middle{
+	float:left;
+	width:879px;
+	height:auto;
+	background-image:url(<?php echo $image_url ?>innerpages/inner_background_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.innerbakground_right{
+	float:left;
+}
+#clientmenumain{
+	float:left;
+	width:186px;
+	/*margin-right:27px;*/
+	margin-top:20px;
+}
+.clientmenumain_left, .clientmenumain_right{
+	float:left;
+}
+.clientmenumain_middle{
+	float:left;
+	width:172px;
+	height:291px;
+	background-image:url(<?php echo $image_url ?>innerpages/inner_menu_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.redheading{
+	float:left;
+	font-weight:bold;
+	font-size:22px;
+	color:#D40203;
+}
+.bluelabel{
+	float:left;
+	padding-top:6px;
+	padding-left:10px;
+	font-size:14px;
+	color:#2289AB;
+	text-decoration:underline;
+}
+.profileinnercontentdiv{
+	float:left;
+	width:100%;
+	padding-top:45px;
+}
+.listdata{
+	width:70%;
+	margin:auto;
+}
+.commonaddressheads{
+	font-weight:bold;
+	font-size:12px;
+	color:#999999;
+	padding-bottom:5px;
+}
+.profile_personal_left, .profile_personal_right{
+	float:left;
+}
+.profile_personal_middle{
+	float:left;
+	width:400px;
+	height:209px;
+	background-image:url(<?php echo $image_url ?>innerpages/profile_personal_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.contentsmain{
+	margin:10px;
+	width:380px;
+	float:left;
+}
+.menubackground{
+	float:left;
+	width:159px;
+	height:29px;
+	margin-top:20px;
+	margin-left:5px;
+	background-image:url(<?php echo $image_url ?>innerpages/menu_button.jpg); 
+	background-repeat:no-repeat;
+}
+.menutext{
+	padding-top:5px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+}
+.menutext a:visited,.menutext a:link,.menutext a:hover,.menutext a:active{
+	color:#000000;
+	text-decoration:none;
+}
+.menutext_selected{
+	padding-top:5px;
+	text-align:center;
+	font-weight:bold;
+	text-decoration:none;
+}
+.menutext_selected a:visited,.menutext_selected a:link,.menutext_selected a:hover,.menutext_selected a:active{
+	color:#D61312;
+	text-decoration:none;
+}
+.editprofile{
+	font-weight:bold;
+	font-size:12px;
+	color:#999999;
+	padding-bottom:5px;
+	width:300px;
+	text-align:right;
+}
+.middlebutton
+ {
+ 	width:521px;
+ 	text-align:center;
+ 	padding:10px 0px 10px 0px;
+ }	
+ .examdata{
+	width:91%;
+	margin:auto;
+}
+.completedcourses{
+ 	float:left;
+ 	color:#999999;
+ 	font-size:22px;
+ 	font-weight:bold;
+}
+.exam_middle{
+	float:left;
+	width:521px;
+	height:209px;
+	background-image:url(<?php echo $image_url ?>innerpages/profile_personal_middle.jpg); 
+	background-repeat:repeat-x;
+	
+}
+.examdetmain{
+	float:left;
+	width:350px;
+}
+.examtitle{
+	font-weight:bold;
+	font-size:12px;
+	color:#D40203;
+}
+.examdetails{
+	float:left;
+	width:320px;
+}
+.exam_left_title{
+	float:left;
+	width:200px;
+	text-align:right;
+	padding:10px 0px 10px 0px;
+	color:#000000;
+	font-weight:normal;
+}
+.exam_middle_colon{
+	float:left;
+	width:20px;
+	text-align:center;
+	padding:10px 0px 10px 0px;
+}
+.exam_right_det{
+	float:left;
+	width:100px;
+	text-align:left;
+	padding:10px 0px 10px 0px;
+}
+.exam_right_data{
+	float:left;
+	text-align:left;
+	padding:10px 0px 10px 0px;
+}
+.writeexam{
+	float:left;
+	text-align:right;
+	color:#015CAB;
+	width:120px; 
+}
+.examdetmainview{
+	float:left;
+	margin:20px;
+}
+.disabletext{
+	font-weight:bold;
+	font-size:12px;
+	color:#D40203;
+	padding-left:20px;
+}
+.datacolor{
+	color:#9A2C09;
+	font-weight:bold;
+}
+.applucoursebutton
+ {
+ 	width:100%;
+ 	text-align:center;
+ 	padding:0px 0px 10px 0px;
+ }	
+ #examinnerpagemain{
+	float:left;
+	width:99.4%;
+	margin-left:2px;
+	padding-top:50px;
+}
+.exam_quest_middle{
+	float:left;
+	width:633px;
+	height:auto;
+	background-image:url(<?php echo $image_url ?>innerpages/exam_quest_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.exam_quest_left{
+	float:left;
+	height:auto;
+	background-image:url(<?php echo $image_url ?>innerpages/exam_quest_left.jpg); 
+	background-repeat:repeat-y;
+}
+.examquestdata{
+	width:666px;
+	margin:auto;
+}
+#examviewmain{
+	float:left;
+	width:91%;
+	margin-right:10px;
+	margin-left:30px;
+}
+.examquestionno{
+	color:#D40203;
+	font-weight:bold;
+}
+.examquestioncolor{
+	color:#999999;
+	font-weight:bold;
+}
+.remainingtime{
+	float:left;
+	padding-left:450px;
+}
+.exam_quest_no_background{
+	float:left;
+	width:29px;
+	height:29px;
+	background-image:url(<?php echo $image_url ?>innerpages/questionno.jpg); 
+	background-repeat:no-repeat;
+}
+.examquestioncolors{
+	float:left;
+	color:#999999;
+	font-weight:bold;
+	width:540px;
+	padding-top:5px;
+	padding-left:10px;
+}
+.questno_red
+{
+	float:left;
+	color:#ffffff;
+	text-align:center;
+	width:29px;
+	padding-top:5px;
+	font-weight:bold;
+}
+.exambuttons{
+	float:left;
+	width:100%; 
+	text-align:center; 
+	padding-top:10px;
+}
+.greenheading{
+	float:left;
+	font-weight:bold;
+	font-size:22px;
+	color:#66AC0D;
+}
+#examresultviewmain{
+	float:left;
+	width:93%;
+	margin-right:10px;
+	margin-left:30px;
+	
+}
+.examsuccessinnercontentdiv{
+	margin:auto;
+	width:80%;
+	padding-top:10px;
+}
+.exam_success_middle{
+	float:left;
+	width:554px;
+	height:295px;
+	background-image:url(<?php echo $image_url ?>innerpages/exam_result_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.successcontentsmain{
+	margin:auto;
+	width:65%;
+}
+.successinnercontent{
+	margin:auto;
+	width:75%;
+}
+.view{
+	float:left;
+	color:#015CAB;
+}
+.print{
+	float:right;
+	color:#015CAB;
+}
+.result_right_det{
+	float:left;
+	width:50px;
+	text-align:left;
+	padding:10px 0px 10px 0px;
+}
+.coursetitle{
+	padding:20px 0px 10px 20px;
+	font-weight:bold;
+	font-size:14px;
+	color:#D40203;
+}
+.bluelink{
+	float:left;
+	font-size:14px;
+	color:#2289AB;
+	text-decoration:underline;
+	padding-top:20px;
+	padding-left:5px;
+}
+.bluelink_right{
+	float:right;
+	font-size:14px;
+	color:#2289AB;
+	text-decoration:underline;
+	padding-top:20px;
+	padding-left:5px;
+}
+.ashheading{
+	font-weight:bold;
+	font-size:22px;
+	color:#999999;
+}
+.examstartbuttons{
+	width:80%;
+	margin:auto;
+}
+.time{
+	float:left;
+	font-weight:bold;
+	font-size:12px;
+	color:#D40203;
+	padding-left:300px;
+}
+
+.quiz_result{
+
+	float:left;
+	width:566px;
+	height:30px;
+	/**background-image:url(<?php echo $image_url ?>innerpages/quiz_result.jpg); **/
+	background-color:#E3E3E3;
+	background-repeat:repeat-x;
+}
+.quiz_border_result{
+
+	border-bottom:thin dotted #000000;
+	width:566px;
+	padding-top:40px;
+	padding-bottom:20px;
+	
+}
+.quiz_resulthead{
+
+	float:left;
+	padding-top:9px;
+	padding-left:14px;
+	color:#D95C5A;
+	font-weight:bold;
+}
+.quiz_resultinner{
+
+	float:left;
+	padding-top:1px;
+}
+.quiz_num{
+	color:#D95C5A;
+	font-weight:bold;
+}
+.quiz_result_que{
+	color:#BDBDBD;
+	font-weight:bold;
+}
+.quiz_result_ans{
+	color:#BDBDBD;
+	padding-left:30px;
+}
+.quiz_result_ans_is{
+	color:#D95C5A;
+	padding-left:4px;
+	font-weight:bold;
+}
+.quiz_result_display{
+	
+	float:right;
+}
+.quiz_result_paginate{
+	padding-top:10px;
+	float:right;
+	
+}
+
+.change_password_main{
+	float:left;
+	width:90%;
+	margin:30px 30px 30px 0px;
+}
+.change_password_right{
+	float:left;
+	padding-top:5px;
+	width:50%;
+}
+ .navigationtext_selected{
+	float:left;
+	color:#FF0000;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px 64px 0px 64px;
+}
+.navigationtext_selected a:visited,.navigationtext_selected a:link,.navigationtext_selected a:hover,.navigationtext_selected a:active
+{
+	color:#FF0000;
+	text-decoration:none;
+}
+.navigationtextlog_selected{
+	float:left;
+	color:#FF0000;
+	font-weight:bold;
+	font-size:14px;
+	padding:10px 45px 0px 45px;
+}
+.navigationtextlog_selected a:visited,.navigationtextlog_selected a:link,.navigationtextlog_selected a:hover,.navigationtextlog_selected a:active
+{
+	color:#FF0000;
+	text-decoration:none;
+}   
+.forgotpasswordtext{
+	width:100%;
+	float:left;
+	text-align:left;
+	padding:10px 0px 30px 20px;
+}
+#forgotmain{
+	float:left;
+	width:90%;
+	margin-right:10px;
+	margin-left:30px;
+}
+.forgotdata{
+	width:81%;
+	margin:auto;
+}
+.forgot_middle{
+	float:left;
+	width:615px;
+	height:209px;
+	background-image:url(<?php echo $image_url ?>innerpages/profile_personal_middle.jpg); 
+	background-repeat:repeat-x;
+}
+/ ****Pagination ********/
+.pagination-container {
+	width:100%;
+	margin-top:10px;
+}
+.pagination_div{
+	border:1px solid #625E43;
+	background:#FFFFFF;	
+	float:left;
+	height:20px;
+	margin-left:2px; 
+	margin-right:2px;
+}
+.pagination_div DIV{
+	padding:3px 6px;	
+	margin:0px;
+	float:none !important;
+}
+.pagination_div span{
+	padding:3px 6px;	
+	margin:0px;
+}
+.pagination_selected_div{	
+	border:1px solid #625E43;
+	background-color:#D95C5A;	
+	float:left;
+	height:20px;
+	margin-left:2px; 
+	margin-right:2px;
+}
+.pagination_selected_div DIV{
+	padding:3px 6px;	
+	margin:0px;
+	float:none !important;
+}
+.pagination_selected_div span{
+	padding:3px 6px;	
+	margin:0px;
+}
+.pagination_next_div DIV{
+	padding:3px 6px;	
+	margin:0px;
+	float:none !important;
+}
+.pagination_next_div span{
+	padding:3px 6px;	
+	margin:0px;
+}
+
+.pagination_selected_div DIV b{
+	font-size:1em;
+}
+.pagination_selected_div span b{
+	font-size:1em;
+}
+.pagination_div DIV a {
+    font-weight:bold;
+	color:#686868;
+	font-size:1em;
+	text-decoration:none;
+
+}
+.pagination_div DIV b{
+	color:#686868;
+	font-size:14px;
+}
+.pagination_div span a {
+    font-weight:bold;
+	color:#686868;
+	font-size:.9em;
+	text-decoration:none;
+}
+.pagination_div span b{
+	color:#686868;
+	font-size:14px;
+}
+.pagination_next_div{
+	border:1px solid #A7A3A2;
+	background:#FFFFFF;
+	float:left;
+	height:20px;
+	margin-left:2px; 
+	margin-right:2px;
+}
+
+.pagination_next_div DIV a{
+	color:#686868;
+	font-weight:bold;
+	font-size:.9em;
+	text-decoration:none;
+}
+.pagination_next_div span a{
+	color:#686868;
+	font-weight:bold;
+	font-size:.9em;
+	text-decoration:none;
+}
+
+.admin_register_step2_billing_middle{
+	float:left;
+	width:700px;
+	height:132px;
+	background-image:url(<?php echo $image_url ?>register/reg_step2_billing_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.admin_register_step2_shipping_middle{
+	float:left;
+	width:700px;
+	height:164px;
+	background-image:url(<?php echo $image_url  ?>register/reg_shipping_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.admin_agreementbox{
+ 	border:1px solid #A80000; 
+ 	width:695px; 
+ 	float:left;
+ }
+ .admin_agreementinnerbox{
+ 	float:left; 
+ 	width:694px; 
+ 	height:150px; 
+ 	overflow:auto;
+    color:#000;
+ }
+  .admin_agreementagreetext{
+ 	float:left; 
+ 	padding-top:3px; 
+ 	padding-right:70px;
+ 	color:#000;
+ }
+ .admin_agreementdonttext{
+ 	float:left; 
+ 	padding-top:3px;
+ 	color:#000;
+ }
+ .filedforrate{
+    color:#000;
+	float:left;
+	text-align:left;
+}
+#show_broker_livecourse {
+	position:absolute;
+	width:200px;
+	z-index:1001;
+}
+/*****Ends ***********/

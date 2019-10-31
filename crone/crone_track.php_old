@@ -1,0 +1,151 @@
+<?php
+
+	include('fedexdc.php');
+	include("dbconfig.php");
+
+$query="SELECT o.trackingno,o.id,u.id as user_id,u.emailid
+		FROM adhi_orderdetails AS o JOIN adhi_user as u on u.id = o.userid where o.status ='S' and delivered_date  ='0000-00-00' ";
+
+	$resul=mysql_query($query);
+
+if($resul){
+while ($row = mysql_fetch_array($resul)){
+		$result_array[] = $row;
+	}
+//print_r($result_array);
+if(count($result_array)>0){
+	foreach ($result_array as $result_array){
+		// create new FedExDC object
+		// For tracking results you do not need an account# or meter#
+		$fed = new FedExDC('112117431','101407030');		
+		//tracking example
+		$track_Ret = $fed->track(
+			array(
+			'1537' => $result_array['trackingno'], //Tracking Number
+			'1534' =>'Y' // detail_scan_indicator (Show me all the tracking data)
+			)
+		);
+		
+		if (!$fed->getError()){
+			for ($i=1; $i<=$track_Ret[1584]; $i++) {
+			$deldate = $track_Ret['1720-'.$i] ;
+				if($deldate!=''){
+					$del_year 		= 	substr($deldate, 0, -4); 
+					$del_month 		= 	substr($deldate, 4, -2);
+					$del_day 		= 	substr($deldate, 6);
+					$delverydate	=	$del_year."-".$del_month."-".$del_day;
+				}
+				else{
+					$delverydate	=	'';
+				}
+				if($track_Ret['1715-'.$i]>=1){
+					$j=1;
+					if($track_Ret['1159-'.$i.'-'.$j]!="Scan information is not currently available. Please try again later."){
+						$location	=	$track_Ret['1160-'.$i.'-'.$j].",".$track_Ret['1161-'.$i.'-'.$j].",".$track_Ret['1164-'.$i.'-'.$j];
+					}else{
+						$location	=	'';
+					}
+				}	
+			}
+				
+			if(($location !='') or ($delverydate !='') ){
+				$curdate= convert_UTC_to_PST_datetime(date('Y-m-d H:i:s'));
+				if($delverydate !='')
+				$where 	=	",status ='C'";
+				else
+				$where 	=	"";
+				$query="UPDATE adhi_orderdetails  set delivered_date ='$delverydate',current_location ='$location',last_trackdate ='$curdate' $where where id = '".$result_array['id']."' ";	
+				$resul=mysql_query($query);
+				if($resul){
+					if($delverydate !=''){
+					$query	=	"select effective_date from adhi_user_course where orderid ='".$result_array['id']."'";
+					$resul=mysql_query($query);
+					if($resul){
+				
+						while ($row = mysql_fetch_array($resul)){
+						$effective_date = $row['effective_date'];
+						if($effective_date =='0000-00-00'){
+					// pls note there is no effective date manually overide by admin
+					$query="UPDATE  adhi_user_course set delivered_date  ='$delverydate',effective_date = DATE_ADD(delivered_date, INTERVAL 17 DAY) where orderid ='".$result_array['id']."'
+					";		
+					//echo "jii";				
+					$resul=mysql_query($query);
+						if($resul){
+							$Email_Body = '';								
+							
+							$Email_Body="<pre>";
+							$Email_Body=$Email_Body. "Exam Schedule"." \n";
+							$Email_Body=$Email_Body. "--------------------------------------"." \n";
+							$Email_Body		.= 
+									'<table cellpadding="4" cellspacing="0" border="1" width="300"  style="border:#CCCCCC thin;">
+									<tr>
+									<td align="left"  width="150" >Course Name</td>
+									<td align="left"  width="150" >Exam Date</td>
+									</tr>';
+							$query="select  date_format(u.effective_date,'%m/%d/%Y')as effectivedate,c.course_name
+							from  adhi_user_course as u join adhi_courses as c  on c.id = u.courseid where u.orderid ='".$result_array['id']."'";
+							$resul=mysql_query($query);
+							if($resul){
+								while ($row = mysql_fetch_array($resul)){
+								
+									$Email_Body		.= 
+									'
+									<tr>
+									<td align="left"  width="150" >'.$row['course_name'].'</td>
+									<td align="left"  width="150" >'.$row['effectivedate'].'</td>
+									</tr>';
+								
+								}
+							}
+							$Email_Body		.= '</table>';
+							//echo $Email_Body	;
+							
+							$to 		= 	$result_array['emailid'];
+							include_once('class.phpmailer.php');
+							include_once('mailconfig.php');			
+							$mail               = new PHPMailer();
+							$mail->From         = constant ('_SMTP_FROM'); 
+							$mail->FromName     = constant ('_SMTP_FROMNAME'); 
+							$mail->Subject      = 'Exam Schedule';
+							$mail->AltBody      = "To view the message, please use an HTML compatible email viewer!"; // optional, comment out and test
+							
+							$mail->MsgHTML ($Email_Body);
+							$mail->AddAddress ($result_array['emailid'] , $result_array['firstname']);
+							
+							$mail->IsSMTP ();
+							$mail->Host 							= 	constant ('_SMTP_HOST');
+							$mail->SMTPAuth 						= 	true;
+							$mail->Username 						= 	constant ('_SMTP_USER');
+							$mail->Password 						= 	constant ('_SMTP_PASS');
+							
+							if (!$mail->Send ())
+							{
+							echo  "mail not delivered";
+							}
+							else
+							{
+							
+							echo 'Mail successfully sent!';   
+							}
+							}
+						}
+						}
+					}
+
+						
+					}
+				}
+			  } else{
+				  echo "No track details";
+			  }
+			}else{
+				echo "tracking faild";
+			}
+		}
+	}
+}
+
+		
+	
+
+?>

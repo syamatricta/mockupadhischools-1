@@ -1,0 +1,16 @@
+.w100perc{width:100%;}
+.pos_rel{position: relative;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url.'bg_01.jpg'?>) #000000 no-repeat center top;
+height:auto;
+}
+.notestyle{color:#A5CE34; font-style:italic; font-size:13px; padding-bottom:10px; float:left;}
+#fedexMsg{width:240px;left: 1px; top: 63px;display:none;position:absolute;background-color: lightyellow;border: 3px solid #999999;padding: 2px;z-index: 100;}
+.fedexspan{padding:10px 10px;background-color:#000; color:#FFF;font-size:13px;}
+.blkstate{clear:both; float:left;margin-bottom:10px;height:30px;font-size:18px;}
+.statecls{display:none; position:relative;top:14px;z-index:1000;width:230px;margin-left:2px;}
+.r8{right:8px;}

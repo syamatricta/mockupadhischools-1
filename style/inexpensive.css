@@ -1,0 +1,181 @@
+.inexpensive_contant_top {
+   color: #A2A5A5;
+   font-family: arial;
+   text-align:center;
+   background:url(<?php echo $image_url ?>inexpensive/toptextborder.png) no-repeat scroll 0 0 transparent;
+   height:228px;
+   padding-left: 100px;
+   padding-right: 100px;
+   font-style:italic;
+}
+.inexpensive_contant_top_title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.inexpensive_contant_top_text {
+    font-size: 17px;
+    font-weight: bold;
+}
+.inexpensive_video_div {
+    background-color:#343434;
+    background:url(<?php echo $image_url ?>inexpensive/inexpensive_video_img.png) no-repeat scroll 0 0 transparent;
+    width:783px;
+    height:393px;
+    margin-top:20px;
+    cursor:pointer;
+}
+.inexpensive_topcontant{
+    padding-top:60px;
+    text-align:center;
+}
+
+
+.inexpensive_forum_helpdesk_main {
+    margin-top: 50px;
+}
+.forum_section {
+    float: left;
+    width: 390px;
+}
+
+.helpdesk_section {
+    float: right;
+    width: 390px;
+}
+.forum_title {
+    background:url(<?php echo $image_url ?>inexpensive/internet_forum.png) no-repeat scroll 0 0 transparent;
+    height: 55px;
+    width: 161px;
+}
+.helpdesk_title {
+    background:url(<?php echo $image_url ?>inexpensive/helpdesk.png) no-repeat scroll 0 0 transparent;
+    height: 56px;
+    width: 161px;
+    margin-left:12px;
+}
+.forum_text {
+    margin-top:20px;
+    height:110px;
+}
+.helpdesk_text {
+    margin-top:20px;
+    height:110px;
+    margin-left:12px;
+}
+.forum_help_text_top {
+    background:url(<?php echo $image_url ?>inexpensive/meet-ourstaff01_slice_15.png);
+    background-repeat:repeat-x;
+    height: 12px;
+    width: 378px;
+}
+.forum_help_text_bottom {
+    background:url(<?php echo $image_url ?>inexpensive/meet-ourstaff01_slice_15-24.png);
+    background-repeat:repeat-x;
+    width:378px;
+}
+
+.forum_help_text_content {
+    background-color: #2D2D2D;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 20px;
+    width: 358px;
+    height:70px;
+    padding-top:16px;
+}
+.inexpensive_course_material {
+    margin-top:5px;
+}
+.course_material_top {
+    background:url(<?php echo $image_url ?>inexpensive/meet-ourstaff01_slice_15-32.png);
+    background-repeat:repeat-x;
+    height: 10px;
+    width: 782px;
+}
+.course_material_bottom {
+    background:url(<?php echo $image_url ?>inexpensive/meet-ourstaff01_slice_15-36.png);
+    background-repeat:repeat-x;
+    height: 10px;
+    width: 782px;
+}
+.course_material_content {
+    background-color: #2D2D2D;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-left: 20px;
+    width: 762px;
+    padding-top:16px;
+    height:175px;
+}
+.course_material_title {
+    font-size:25px;
+    font-weight:bold;
+}
+.course_main {
+    margin-top:20px;
+}
+.course_material_content_text {
+    float: left;
+    width: 532px;
+    font-size:13px;
+}
+.course_material_content_img {
+    background:url(<?php echo $image_url ?>inexpensive/books.png) no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 208px;
+    width: 200px;
+}
+.inexpensive_register_link {
+    background:url(<?php echo $image_url ?>inexpensive/meet-ourstaff01_slice_38.png) no-repeat scroll 0 0 transparent;
+    width:327px;
+    height:98px;
+}
+.inexpensive_register_main {
+    margin-top:35px;
+    margin-left:200px;
+}
+#videoContainer, #videoContainer1, #videoContainer2 {
+    background-color: #2D2D2D;
+    height: 300px;
+    text-align: center;
+    width: 750px;
+}
+
+.video_player_div {
+    background-color: #0B0B0B;
+    float: left;
+    height: 354px;
+    margin-left: 2px;
+    margin-top: 6px;
+    width: 604px;
+}
+.video_thumb_div {
+    float: right;
+    margin-top: 6px;
+    width: 131px;
+}
+.video_thumb {
+    margin-bottom:6px;
+    cursor:pointer;
+}
+html > body #MB_frame {
+      background-color: #2D2D2D;
+}
+#MB_caption {
+    padding:1px;
+}
+#MB_header {
+    background-color: #2D2D2D;
+}
+.w100perc{width:100%;}
+.pos_rel{position: relative;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url.'bg_01.jpg'?>) #000000 no-repeat center top;
+height:auto;
+}

@@ -1,0 +1,9 @@
+<?php
+define('ENVIRONMENT', 'development');
+define('IS_FEDEX_ONE_RATE_ENABLED', TRUE);
+
+$base_path      = '/home/adhischools/public_html/';
+$base_url       = 'http://localhost/Adhischools/';
+$wsdl_path      = $base_path.'wsdl-test/';
+
+?>

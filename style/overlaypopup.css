@@ -1,0 +1,71 @@
+/* css start */
+.overlay-bg {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	cursor: pointer;
+	z-index: 100000; /* high z-index */
+	background: #000; /* fallback */
+	background: rgba(0,0,0,0.75);
+}
+.overlay-content {
+        display: none;
+        background: #fff;
+        padding: 1%;
+        width: 62%;
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        margin: 0 0 0 -20%; /* add negative left margin for half the width to center the div */
+        cursor: default;
+        z-index: 1000001;
+        border-radius: 4px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.9);
+}
+
+.close-btn {
+        cursor: pointer;
+        border: 1px solid #333;
+        padding: 2% 5%;
+        background: #a9e7f9; /* fallback */
+        background: -moz-linear-gradient(top,  #a9e7f9 0%, #77d3ef 4%, #05abe0 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a9e7f9), color-stop(4%,#77d3ef), color-stop(100%,#05abe0));
+        background: -webkit-linear-gradient(top,  #a9e7f9 0%,#77d3ef 4%,#05abe0 100%);
+        background: -o-linear-gradient(top,  #a9e7f9 0%,#77d3ef 4%,#05abe0 100%);
+        background: -ms-linear-gradient(top,  #a9e7f9 0%,#77d3ef 4%,#05abe0 100%);
+        background: linear-gradient(to bottom,  #a9e7f9 0%,#77d3ef 4%,#05abe0 100%);
+        border-radius: 4px;
+        box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+.close-btn:hover {
+        background: #05abe0;
+}
+.my_popup_close{ float:right;padding:0 0.4em;color:#000; text-decoration: none; font-size:16px !important; font-weight: bold;}
+.overlay-content h1{
+    color:#000; font-size: 20px;
+    text-align:left;
+    padding-left: 15px;
+}
+.overlay-content .error_msg{
+    color:red !important;
+}
+.overlay-content .success_msg{
+    color:green !important;
+}
+.overlay-content, .overlay-content span{color:#000; font-size: 13px; }
+.overlay-content span{ line-height: 40px; }
+/* media query for most mobile devices */
+@media only screen and (min-width: 0px) and (max-width: 480px){
+
+	.overlay-content {
+		width: 96%;
+		margin: 0 2%;
+		left: 0;
+	}
+}
+
+
+

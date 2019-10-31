@@ -1,0 +1,32 @@
+.pos_rel{position: relative;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+height:auto;
+}
+.test_btns{
+float:right; width:36px;display:none;
+}
+.w100perc{width:100%;}
+.test_prevnxt{
+float: left; position: absolute; z-index: 2; top: 293px; left: 51px; width: 88%;
+}
+.float_l{float: left;}
+.float_r{float: right;}
+.testimonial_bg{width:900px;background:none;height:350px;}
+.testimonial_content_main{background-color:transparent;color:#000;}
+.npn_next, .npn_prev{
+	float:left;
+	background-image: url("<?php echo $image_url;?>nex-prev-sprite.png") !important;
+	height: 34px;
+    width: 97px;
+}
+.npn_next {background-position:left top;}
+.npn_next:hover { background-position:left -34px;}
+.npn_prev {background-position:left -68px;}
+.npn_prev:hover { background-position:left -102px;}
+.testimonial_content_inner{padding-top:5px;}
+.test_main{margin:0;width:900px;}
+.h_211{height:211px;}

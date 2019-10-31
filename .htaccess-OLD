@@ -1,0 +1,107 @@
+
+Options +FollowSymlinks 
+RewriteEngine On 
+
+RewriteCond %{HTTP_HOST} ^adhischools.com [NC]
+RewriteRule ^(.*)$ http://www.adhischools.com/$1 [L,R=301] 
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+
+php_value upload_max_filesize 100M
+php_value post_max_size 100M
+AddType image/svg+xml .svg
+
+AddOutputFilterByType DEFLATE image/svg+xml
+
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+# 2 MONTH(5184000) - for uat - 3600 - 1hr
+<FilesMatch "\.(flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav|svg)$">
+Header set Cache-Control "max-age=5184000, public"
+</FilesMatch>
+ 
+# 1 WEEK(604800) - for uat - 3600 - 1hr
+<FilesMatch "\.(jpg|jpeg|png|gif|swf)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
+ 
+# 3 HOUR(10800) - for uat - 3600 - 1hr
+<FilesMatch "\.(txt|xml|js|css)$">
+Header set Cache-Control "max-age=604800"
+</FilesMatch>
+ 
+# NEVER CACHE - notice the extra directives
+<FilesMatch "\.(html|htm|php|cgi|pl)$">
+Header set Cache-Control "max-age=0, private, no-store, no-cache, must-revalidate"
+</FilesMatch>
+
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+  # Compress HTML, CSS, JavaScript, Text, XML and fonts
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE application/x-font
+  AddOutputFilterByType DEFLATE application/x-font-opentype
+  AddOutputFilterByType DEFLATE application/x-font-otf
+  AddOutputFilterByType DEFLATE application/x-font-truetype
+  AddOutputFilterByType DEFLATE application/x-font-ttf
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE font/opentype
+  AddOutputFilterByType DEFLATE font/otf
+  AddOutputFilterByType DEFLATE font/ttf
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+
+  # Remove browser bugs (only needed for really old browsers)
+  BrowserMatch ^Mozilla/4 gzip-only-text/html
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+  Header append Vary User-Agent
+</IfModule>
+
+
+
+# MAINTENANCE-PAGE REDIRECT
+# <IfModule mod_rewrite.c>
+#  RewriteEngine on
+#  RewriteCond %{REMOTE_ADDR} !^182\.72\.164\.230
+#  RewriteCond %{REMOTE_ADDR} !^122\.166\.241\.4
+#  RewriteCond %{REQUEST_URI} !/maintanceindex.php$ [NC]
+#  RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif) [NC]
+#  RewriteRule .* /maintanceindex.php [R=302,L]
+# </IfModule>
+
+Redirect /sitemap.php /sitemap
+
+redirect /forums /pagenotfound
+
+RedirectMatch ^/admin$ /pagenotfound
+RedirectMatch ^/admin/$ /pagenotfound
+RedirectMatch ^/admin/login$ /pagenotfound
+RedirectMatch ^/admin/login/$ /pagenotfound
+

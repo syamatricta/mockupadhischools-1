@@ -1,0 +1,31 @@
+.pos_rel{position: relative;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url . 'bg_01.jpg' ?>) #000000 no-repeat center top;
+height:auto;
+}
+.w100perc{width:100%;}
+.pb_100{padding-bottom:100px}
+.crr_out_bg{width:100%; height:117px; background-color:#0c0c0c;}
+.crr_out_bgin1{float: left; width: 227px; padding-left: 26px; padding-top: 12px; height: 114px;}
+.crr_out_bgin2{font-family: arial; font-weight: bold; color: rgb(165, 206, 58); margin-top: 7px; font-size: 13px;}
+.crr_out_bgin3{font-family: arial; font-weight: bold; margin-top: 7px; font-size: 12px;}
+.crr_out_bgin4{font-family: arial; font-weight: bold; color: rgb(165, 206, 58); margin-top: 25px; font-size: 13px;}
+.crr_out_bgin5{font-family: arial; font-weight: bold; font-size: 12px; margin-top: 7px;}
+.crr_out_bgin6{width: 470px; float: left; padding-top: 12px; height: 114px;}
+.crr_out_bgin7{font-family: arial; font-weight: bold; color: rgb(165, 206, 58); margin-top: 7px; font-size: 13px;}
+.crr_out_bgin8{font-family: arial; font-weight: bold; font-size: 12px; margin-top: 14px;}
+.crr_out_bgin9{font-family: arial; font-weight: bold; font-size: 12px; margin-top: 14px;}
+.crr_out_bgin10{font-family: arial; font-weight: bold; font-size: 12px; margin-top: 14px;}
+.crr_out_bgin11{padding-left: 27px; height:50px; margin-top:13px;}
+.crr_out_bgin12{padding-top: 24px; padding-left: 21px; width: 95%; line-height:1.4em;}
+.crr_out_bgin13{text-align: center; margin-top: 58px;}
+.crr_out_bgin14{text-align: center; margin-top: 14px;}
+.mt_24{margin-top:24px;}
+.mr_10{margin-right:10px;}
+.bfsize{font-size:13px;}
+.cb{clear:both;}
+#brokerclass{left:-55px;}

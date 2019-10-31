@@ -1,0 +1,694 @@
+/*
+Theme Name: Whitepress Wordpress Theme.
+Theme URI: http://www.onylwp.com
+Description: whitePress wordpress theme
+Version: 0.5
+Author: OnlyWP
+Author URI: http://onlywp.com
+*/
+
+body{
+    background: url(images/bg.png) repeat-x top #dedede;
+    font-size: 12px;
+    color: #676765;
+    font-family: Arial;
+}
+
+a{
+    color: #666666;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+a img { 
+    border: none 
+}
+#wpHeader{
+    height: 104px;
+    position: relative;
+    width: 950px;
+    margin: 14px auto auto;
+}
+
+ul#wpMenu{
+    margin: 8px auto auto;
+    background: url(images/menu.png) no-repeat top;
+    width: 912px;
+    height: 48px;
+    padding-left: 38px;
+    padding-top: 18px;
+}
+
+ul#wpMenu li{
+    float: left;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 115%;
+    font-weight: bold;
+}
+
+ul#wpMenu li a{
+    color: #fff;
+}
+
+#wpInformation{
+    background: url(images/information.png) no-repeat;
+    width: 137px;
+    height: 33px;
+    position: absolute;
+    right:40px;
+    top: 15px;   
+}
+#wpInformation ul{
+    float:left;
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 100%;
+}
+#wpInformation ul li{
+    float:left;
+    width: 17px;
+    height: 16px;
+    padding-left: 18px;
+    padding-top: 4px;
+    margin-right: 20px;
+    margin-left: 6px;
+    font-size: 80%;
+}
+#wpInformation ul li.twitter{
+    background: url(images/twitter.png) no-repeat;
+}
+#wpInformation ul li.rss{
+    background: url(images/rss.png) no-repeat;
+}
+#wpInformation ul li.mail{
+    background: url(images/mail.png) no-repeat;
+}
+#wpInformation ul li a{
+    color: #9c9b9b;
+}
+#wpContent{
+    width: 873px;
+    margin: auto;
+    position: relative;
+    background: #fff;
+    padding-left: 38px;
+    padding-right: 38px;
+    margin-top: 31px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+#wpFeatured{
+    height: 255px;
+    width: 851px;
+    overflow: hidden;
+    border: 10px #ececec solid;
+}
+#wpFeatured .slides{
+    width: 851px;
+    height: 255px;
+
+}
+.featured{
+    background: url(images/featured.png) no-repeat;
+    width: 149px;
+    height: 149px;
+    position: absolute;
+    top: 35px;
+    left: 48px;
+    text-indent: -9999px;
+    z-index: 26;
+}
+.fnav{
+    width: 38px;
+    position: absolute;
+    background: url(images/fnav.png);
+    top: 35px;
+    right: 50px;
+    height: 255px;
+    z-index:26;
+}
+.fnav a.navli{
+    background:transparent url(images/fnavli.png);
+    background-position: 18px 19px;
+    width: 19px;
+    height: 18px;
+    display: block;
+    margin-left: 10px;
+    margin-top: 6px;
+    text-indent: -9999px;
+}
+.fnav a:hover.navli{
+    background-position: 18px 2px;
+    
+}
+#content{
+    width: 540px;
+    position: relative;
+    margin-top: 12px;
+}
+
+.post{
+    width: 100%;
+    position: relative;
+    padding-bottom: 18px;
+    float:left;
+    overflow: hidden;
+}
+.post ol{
+    margin: 8px 0;    
+    padding-left: 17px;
+}
+.post ol li{
+    list-style-type: decimal;
+}
+.post ul{
+    margin: 8px 0;
+}
+.post ul li{
+    background: url("images/list.png") no-repeat;
+    padding-left: 15px;
+    margin-bottom: 5px;
+    background-position: 0 2px;
+}
+.post img{
+    overflow: hidden;
+    padding: 3px;
+    margin: 3px;
+    border: 1px solid #eaeaea;
+}
+.post .postUst{
+    height: 53px;
+    width: 100%;
+    border-bottom: 2px dotted #d1d1d1;
+    margin-bottom: 8px;
+}
+
+.post .postUst .postTarih{
+    background: #666;
+    width: 96px;
+    height: 48px;
+    float: left;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+.post .postUst .postTarih span.gun{
+    font-size: 45px;
+    float: left;
+    font-weight: 600;
+}
+.post .postUst .postTarih span.month{
+    font-size: 19px;
+    position: relative;
+    top: 5px;
+    font-weight: 600;
+}
+.post .postUst .postTarih span.year{
+    font-size: 15px;
+    position: relative;
+    top: 6px;
+    font-weight: 600;
+	display:block;
+}
+.post .postUst .postAyrinti{
+    background: #ececec;
+    height: 51px;
+}
+.post .postUst .postAyrinti p{
+    padding-top: 17px;
+    position: relative;
+    padding-left: 20px;
+    float: left;
+}
+.post .postUst .postAyrinti span.cocomment a{
+    background: url(images/cocomment.png) no-repeat;
+    width: 36px;
+    height: 42px;
+    float: right;
+    position: relative;
+    margin-top: 6px;
+    padding-left: 1px;        
+    margin-right: 10px;
+    font-size: 23px;
+    padding-top: 7px;
+    text-align: center;
+    color: #aeaeae;
+}
+.post h1{
+    font-size: 23px;
+    margin: 4px 0;
+}
+.post h2{
+    font-size: 20px;
+    margin: 4px 0;
+}
+.post h3{
+    font-size: 18px;
+    margin: 4px 0;
+}
+.post h4{
+    font-size: 16px;
+    margin: 4px 0;
+}
+.post h5{
+    font-size: 15px;
+    margin: 4px 0;
+}
+.post h2 a{
+    color: #666666;
+    text-decoration: none;
+}
+.post img.postThumb{
+    margin:auto;
+    margin-bottom: 7px;
+    margin-top: 5px;
+    border: 0;
+}
+.post p{
+    margin-top: 2px; 
+    line-height: 1.3em;
+    font-size: 98%;
+    margin-bottom: 10px;   
+}
+.post a.continue{
+    margin-top: 5px;
+    background: url(images/continue.png) no-repeat;
+    width: 88px;
+    position: relative;
+    height: 27px;
+    display: block;
+    padding-top: 7px;
+    padding-left: 24px;
+    font-size: 95%;
+    color: #8a8370;
+}
+.post span#tag{
+    margin-top: 5px;
+    display:inline;
+    background: url(images/tag.png) no-repeat;
+    height: 20px;
+    width: 20px;
+    float: left;
+    position: relative;
+    width: 100%;
+    text-transform:lowercase;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+#sidebar{
+    float: right;
+    width: 280px;
+    position: relative;
+    margin-top: 15px;
+    right: 10px;
+    line-height: 1.3em;
+    font-size: 98%;
+
+} 
+#sidebar .row{
+    width: 100%;
+    display: block;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+#sidebar .row div.smfeatured{
+    background: url(images/sfeatured.png) no-repeat;
+    position: absolute;
+    text-indent: -9999px;
+    width: 75px;
+    height: 75px;
+    margin-top: -1px;
+    margin-left: 0px;
+    padding-top: 3px;
+}
+#sidebar .row div{
+    margin-left: 5px;
+    font-size: 98%;
+}
+#sidebar .row ul{
+    float:left;
+}
+#sidebar .row ul li{
+    background: url(images/list.png) no-repeat;
+}
+#sidebar .row ul li a{
+    padding-left: 15px;
+    position: relative;
+    bottom: 2px;
+}
+#sidebar .row h3{
+    font-size: 20px;
+	margin-bottom: 8px;
+}
+#sidebar .row img.avatar{
+    float: left;
+    border: 8px solid #ececec;
+    margin-left: 2px;
+    margin-right: 6px;
+}
+#sidebar .row ul.categories{
+    float:left;
+    margin-left: 2px;
+    line-height: 1.6em;
+}
+#sidebar .row ul.categories li{
+    float: left;
+    width: 125px;
+    margin-right: 10px;
+    background: url(images/list.png) no-repeat left top;
+}
+#sidebar .row ul.categories li a{
+    bottom: 4px;
+    padding-left: 15px;
+    position: relative;
+}
+#sidebar .row ul.sideFeatured{
+    float:left;
+}
+#sidebar .row ul.sideFeatured li{
+    margin-bottom: 25px;
+    background: none;
+}
+#sidebar .row ul.sideFeatured li:last-child{
+    margin-bottom: 10px;
+}
+#sidebar .row ul.sideFeatured li h4{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+#sidebar .row ul.sideFeatured li h4 a{
+    padding: 0;
+    color: #a6a6a6;
+    margin: 0;
+}
+#sidebar .row ul.sponsor{
+    float:left;
+    margin-bottom: 10px;
+}
+#sidebar .row ul.sponsor li{
+    background: none;
+    width: 125px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 8px;
+}
+#sidebar .row ul.sponsor li a{
+    padding: 10px;
+}
+#wpFooter{
+    width: 100%;
+    background: url(images/footerbg.png) repeat-x;
+    height: 242px;
+    font-size: 98%;
+    line-height: 1.1em;
+	position: relative;
+}
+#footerWidget{
+    width: 876px;
+    margin: auto;
+    background: url(images/footerWidget.png) repeat-x;
+    height: 208px;
+    padding-left: 37px;
+    padding-right: 37px;
+}
+.frow{
+    width: 32%;
+    float: left;
+    margin: 18px 5px 0 5px;
+}
+.frow a.url, .copyright a{
+    font-weight: bold;
+}
+.frow h3{
+    font-size: 19px;
+    margin-bottom: 8px;
+    line-height: 1.6em;
+    border-bottom: 2px dotted #929292; 
+}
+hr{
+    border: none;
+    border-bottom: 2px dotted #d1d1d1;
+    color: #fff;
+    bottom: 5px;
+    position: relative;
+}
+#wpSearch{
+    z-index: 10000;
+    position: absolute;
+    right: 40px;
+    width: 244px;
+    height: 17px;
+    top: 98px;
+    padding: 6px;
+}
+#wpSearch input[type="text"]{
+    background: none;
+    border: none;
+    width: 216px;
+    font-family: Arial;
+    font-size: 15px;
+    color: #666;
+    position: relative;
+    float: left;
+    bottom: 2px;
+}
+#wpSearch input[type="image"]{
+    height: 30px;
+    float: right;
+    width: 25px;
+    bottom: 6px;
+    position: relative;
+}
+.alignright{
+    float:right;
+}
+.alignleft{
+    float:left;
+}
+.sfeatured{
+    margin-bottom: 3px;
+}
+#comment{
+    width: 540px;
+}
+#comment div#comment_ust{
+    border-bottom: 2px dotted #eaeaea;
+    width: 540px;
+}
+#comment div#comment_ust h4{
+    font-size: 25px;
+}
+#comment div#comment_ust span.cocomment a{
+    background: url(images/cocomment.png) no-repeat;
+    width: 36px;
+    height: 42px;
+    float: right;
+    position: relative;
+    margin-top: -45px;
+    padding-left: 1px;        
+    font-size: 23px;
+    padding-top: 7px;
+    text-align: center;
+    color: #aeaeae;    
+}
+#comment #comment_list{
+    background: #ececec;
+    border: 1px solid #d4d4d4;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    float: left;
+    width: 520px;
+}
+#comment #comment_list .wp_list{
+    background: #f7f7f7;
+    border: 1px solid #d4d4d4;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+    float: left;
+}
+#comment #comment_list ul.children .wp_list{
+    float: right;
+    width: 95%;
+}
+
+#comment #comment_list .wp_list:last-child{
+    margin-bottom: 0;
+}
+#comment #comment_list .wp_list .colist_left{
+    float: left;
+    width: 105px;
+    background: #666;
+    text-align: center;
+    position: relative;
+}
+#comment #comment_list .wp_list .colist_right{
+    padding-top: 17px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 75%;
+    float: right;
+    font-size: 96%;
+    line-height: 1.3em;
+}
+#comment #comment_list ul.children .wp_list .colist_right{
+    width: 74%;
+}
+#comment #comment_list .wp_list .colist_right span.say{
+    display: block;
+    margin-bottom: 5px;
+}
+#comment #comment_list .wp_list .colist_right span.say a{
+    font-weight: bold;
+    color: #9d9d9d;
+}
+#comment #comment_list .wp_list .colist_left .colist_leftu{
+    margin: 13px 0;
+    display: inline-block
+}
+img.avatar{
+    border: 5px solid #ececec;
+}
+#comment #comment_list .wp_list .colist_left .colist_lefta{
+    background: #525252;
+    color: #fff;
+    width: 105px;
+    height: 30px;
+    padding: 7px 0 9px;
+    text-align: left;
+}
+#comment #comment_list .wp_list .colist_left .colist_lefta span.gun{
+    position: relative;
+    font-size: 33px;
+    float: left;
+    padding-left: 18px;
+}
+#comment #comment_list .wp_list .colist_left .colist_lefta span.month{
+    position: relative;
+    top:4px;
+    font-size: 15px;
+    margin-right: 5px;
+    font-weight: 600;
+    padding-right: 13px;
+}
+#comment #comment_list .wp_list .colist_left .colist_lefta span.year{
+    position: relative;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    top: 2px;
+    padding-right: 18px;
+}
+#comment a.comment-reply-link{
+    background: url(images/continue.png) no-repeat;
+    width: 88px;
+    height: 27px;
+    position: relative;
+    display: block;
+    padding-top: 5px;
+    color: #afaa9e;
+    padding-left: 32px;
+    margin: 12px 0;
+}
+#comment div#comment_form{
+    width: 100%;
+    position: relative;
+    float: left;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 10px;
+}
+#comment div#comment_form #form_ust{
+    background: #525252;
+    height: 40px;
+}
+#comment div#comment_form #form_ust h3{
+    padding-top: 9px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+#comment div#comment_form #form_alt{
+    padding-left: 15px;
+    background: #ececec;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 85%;
+}
+#comment div#comment_form #form_alt strong{
+    font-size: 120%;
+}
+#comment div#comment_form #form_alt label{
+    width: 90%;
+}
+#comment div#comment_form #form_alt label span.element{
+    display: block;
+    margin: 10px 0;
+}
+#comment div#comment_form #form_alt input[type="text"]{
+    width: 280px;
+    height: 28px;
+    border: 1px solid #d6d6d6;
+    font-family: Arial;
+    background: #f7f7f7;
+    color: #656463;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#comment div#comment_form #form_alt textarea{
+    border: 1px solid #d6d6d6;
+    width: 400px;
+    background:#f7f7f7;
+    font-family: Arial;
+    color: #656463;
+    font-size: 130%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:10px;
+    height: 120px;
+}
+#comment div#comment_form #form_alt input.formsubmit{
+    border: none;
+    width: 153px;
+    height: 43px;
+    background: url(images/submit.png) no-repeat;
+    margin-top: 10px;
+    color: #9c9c9b;
+}
+a#cancel-comment-reply-link{
+    color: red;
+}
+h2.pagetitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+a.top{
+    display: block;
+    margin-top: 5px;
+    background: url(images/top.png) no-repeat;
+    padding-left: 25px;
+    height: 32px;
+    padding-top: 9px;
+}
+.navigation{
+    background: #ececec;
+    height: 26px;
+    position: relative;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-left: 15px;
+    text-align: right;
+    float: left;
+    width: 98%;
+}
+img.wp-smiley{
+    border: none;
+    padding:0;
+}

@@ -1,0 +1,13 @@
+.w100perc{width:100%;}
+.pos_rel{position: relative;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url.'bg_01.jpg'?>) #000000 no-repeat center top;
+height:auto;
+}
+.cb{clear:both;}
+.staffname a{color:#A3A3A3; text-decoration:none;}
+.popbg{position:absolute; width:600px; z-index:1001;width:720px;left:510px; top:280px; }

@@ -1,0 +1,19 @@
+#sidebar .row{
+    margin-bottom: 20px;
+}
+#sidebar .row ul.sideFeatured{
+    margin-bottom: -15px;
+}
+#comment div#comment_form #form_alt textarea{
+    overflow: auto;
+}
+#wpSearch input[type="text"] {
+    bottom: 0;
+}
+.post ol{
+    padding-left: 25px;
+}
+#sidebar .row ul li{
+    display:block;
+    width:100%;
+}

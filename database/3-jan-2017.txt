@@ -1,0 +1,4 @@
+ALTER TABLE `adhi_user` ADD `driving_license` VARCHAR( 200 ) NOT NULL COMMENT 'its empty for old students(before jan 2017)' AFTER `country` ,
+ADD INDEX ( `driving_license` ) 
+
+ALTER TABLE `adhi_reg_in_process` ADD `reg_driving_license` VARCHAR( 200 ) NOT NULL COMMENT 'its empty for old students(before jan 2017)' AFTER `reg_phone` 

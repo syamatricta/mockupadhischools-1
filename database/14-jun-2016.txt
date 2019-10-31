@@ -1,0 +1,1 @@
+ALTER TABLE `adhi_admin` ADD `sub_admin_permission` TINYINT( 1 ) NOT NULL COMMENT '1 - view(users, course, Course, class and recruiter)' AFTER `user_type` 

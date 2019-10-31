@@ -1,0 +1,1 @@
+ALTER TABLE `adhi_exam_tracking` ADD `is_latest` TINYINT NOT NULL DEFAULT '1' COMMENT 'default 1, is the latest exam tracking' AFTER `status`;

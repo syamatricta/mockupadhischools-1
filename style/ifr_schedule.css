@@ -1,0 +1,32 @@
+body {background:none!important;}
+.right_cntnr_bg {background:none!important;}
+.right_cntnr {width: 900px!important;}
+.right_cntnr_bg {width: 900px!important;}
+.filter_container {width:890px;padding: 10px 0 0 10px !important;}
+.filter_fields_cntnr {width: 445px!important;}
+.label_filter {width: 440px!important;}
+.popup-position {left: 95px!important;}
+.list_container {margin-left: 65px!important;}
+#divUserCalendarnw span, #divUserCalendarnw th{color: #D21513!important;background:#FFF!important;}
+.list_heading{color: #D21513!important;}
+#divUserCalendarnw #tblCalendarId{width:420px;background:#FFF!important;border:1px solid #D1D1D1!important;box-shadow:-webkit-box-shadow: 0px 2px 8px #D1D1D1;-moz-box-shadow: 0px 2px 8px #D1D1D1;box-shadow: 0px 2px 8px #D1D1D1;border-radius:-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;padding:20px;}
+.popup-position table{}
+.view_prev_year_img:hover{background-image:url(<?php echo $image_url ?>ifr_calendar_prev_year_hover.png)!important;}
+.view_next_year_img:hover{background-image:url(<?php echo $image_url ?>ifr_calendar_next_year_hover.png)!important;}
+.view_prev_year_img{background-image:url(<?php echo $image_url ?>ifr_calendar_prev_year.png)!important; width:97px!important;height:34px!important;}
+.view_next_year_img{background-image:url(<?php echo $image_url ?>ifr_calendar_next_year.png)!important;width:97px!important;height:34px!important;}
+.view_chapter_det_img:hover{background-image:url(<?php echo $image_url ?>ifr_view_hover.png)!important;}
+.view_chapter_det_img{background-image:url(<?php echo $image_url ?>ifr_view.png)!important;}
+.ifr_red{color:#D21513;font-size: 14px;font-weight: bold;padding-top: 15px;}
+.schedule_details_head{color: #D21513!important;}
+.select{background:url(<?php echo $image_url ?>red_inputselect_big.png) no-repeat!important;}
+select {background:#FFF!important;}
+#tblCalendarId td {height:30px!important;}
+#divUserCalendarnw td:hover, th:hover {color:#000!important;}
+.list_main{background-image:url(<?php echo $image_url  ?>ifr_list_top.png)!important;}
+.list_bottom{background-image:url(<?php echo $image_url  ?>ifr_list_bottom.png)!important;}
+.row_container {background-color:#efefef !important; }
+.list_main{color:#D21513!important;}
+.list_sub{color:#666!important;}
+
+ 

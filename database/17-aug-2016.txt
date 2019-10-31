@@ -1,0 +1,35 @@
+
+CREATE TABLE IF NOT EXISTS `adhi_schedule_chapters` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `course_id` int(11) NOT NULL,
+  `title` varchar(150) NOT NULL,
+  `created_at` datetime NOT NULL,
+  `updated_at` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `course_id` (`course_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+
+--
+-- Dumping data for table `adhi_schedule_chapters`
+--
+
+INSERT INTO `adhi_schedule_chapters` (`id`, `course_id`, `title`, `created_at`, `updated_at`) VALUES
+(1, 5, 'Real Estate Principles - Chapters 1 & 2', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(2, 5, 'Real Estate Principles - Chapters 3 & 4', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(3, 5, 'Real Estate Principles - Chapters 5', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(4, 5, 'Real Estate Principles - Chapters 6 & 7', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(5, 5, 'Real Estate Principles - Chapters 8 & 9', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(6, 5, 'Real Estate Principles - Chapters 10 & 11', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(7, 5, 'Real Estate Principles - Chapters 12', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(8, 5, 'Real Estate Principles - Chapters 13', '2016-08-17 00:00:00', '0000-00-00 00:00:00'),
+(9, 5, 'Real Estate Principles - Chapters 14 & 15', '2016-08-17 00:00:00', '0000-00-00 00:00:00');
+
+
+
+
+ALTER TABLE `adhi_events_master` ADD `schedule_chapter_id` INT( 11 ) NOT NULL AFTER `date` ,
+ADD INDEX ( `schedule_chapter_id` )
+
+
+ALTER TABLE `adhi_events_master` ADD `group_master_id` INT( 11 ) NOT NULL AFTER `schedule_chapter_id` ,
+ADD INDEX ( `group_master_id` ) COMMENT 'for grouping 9 week cousre'

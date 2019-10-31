@@ -1,0 +1,44 @@
+ SUCCESS-------- 220 mx.google.com ESMTP bt1sm5280698pbb.2 - gsmtp
+<br /><pre>hello: 250-mx.google.com at your service, [207.198.105.11]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH XOAUTH2 PLAIN-CLIENTTOKEN
+250 ENHANCEDSTATUSCODES
+</pre><pre>from: 250 2.1.0 OK bt1sm5280698pbb.2 - gsmtp
+</pre><pre>to: 250 2.1.5 OK bt1sm5280698pbb.2 - gsmtp
+</pre><pre>data: 354  Go ahead bt1sm5280698pbb.2 - gsmtp
+</pre>250 2.0.0 OK 1377054156 bt1sm5280698pbb.2 - gsmtp
+<br /><pre>quit: 221 2.0.0 closing connection bt1sm5280698pbb.2 - gsmtp
+</pre>Your message has been successfully sent using the following protocol: smtp<br /><pre>From: "Adhi Schools" <registration@adhischools.com>
+Return-Path: <registration@adhischools.com>
+To: sarahdkemp@gmail.com
+Reply-To: "Adhi Schools" <registration@adhischools.com>
+Subject: =?utf-8?Q?Forgot_Password?=
+X-Sender: registration@adhischools.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <5214341aa96ef@adhischools.com>
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_5214341aa9ad5&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_5214341aa9ad5
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Dear Sarah Kemp,As per your request, new password has been generated as
+follows New Password :wpn8BVHdHCrBThanks,Administrator
+
+
+--B_ALT_5214341aa9ad5
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Sarah Kemp,&lt;br&gt;&lt;br&gt;As per your request, new password has been generate=
+d as follows&lt;br&gt; New Password :wpn8BVHdHCrB&lt;br&gt;&lt;br&gt;Thanks,&lt;br&gt;Administrator
+
+--B_ALT_5214341aa9ad5--</pre>

@@ -1,0 +1,11 @@
+#!/bin/sh
+PHPRC="/usr/local/php53/etc/"
+export PHPRC
+
+PHP_FCGI_CHILDREN=3
+export PHP_FCGI_CHILDREN
+
+PHP_FCGI_MAX_REQUESTS=5000
+export PHP_FCGI_MAX_REQUESTS
+
+#exec /usr/local/php53/bin/php-cgi  -idle-timeout 300  -appConnTimeout 300

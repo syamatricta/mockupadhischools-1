@@ -1,0 +1,30 @@
+.w100perc{width:100%;}
+.pos_rel{position: relative;}
+.pos_relt{position: relative;top:5px;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url.'bg_01.jpg'?>) #000000 no-repeat center top;
+height:auto;
+}
+.cp{cursor:pointer;}
+.cal_month_left{
+	float:left; 
+	padding-top:3px;
+	padding-right:30px;
+}
+.cal_month_right{
+	float:left; 
+	padding-left:30px;
+	padding-top:3px;
+}
+.schout1{float:left;width:760px;margin-left: 200px;}
+.schout2{float:left; width:500px; padding-top:50px;}
+.schout3{width:300px; padding-left:100px;}
+.schout4{float:left;width:500px;}
+.pr30{padding-right:30px;}
+.pl30{padding-left:30px;}
+.cb{clear:both;}
+.schtab1{text-align:center; width:68px; font-size:20px; color:#000; padding-top:14px; z-index:300;}

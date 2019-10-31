@@ -1,0 +1,20 @@
+ALTER TABLE `cc_user_test_bookmark` ADD INDEX ( `cb_test_id` ) 
+
+ALTER TABLE `cc_exam_tracking` ADD INDEX ( `user_id` ) 
+
+ALTER TABLE `cc_exam_tracking` ADD INDEX ( `exam_id` ) 
+
+ALTER TABLE `adhi_new_user` ADD INDEX ( `new_user_email_id` ) 
+
+ALTER TABLE `adhi_new_user` ADD INDEX ( `mail_status` ) 
+
+ALTER TABLE `adhi_new_user` ADD INDEX ( `cron_status` ) 
+
+ALTER TABLE `adhi_new_user` ADD INDEX ( `new_user_status` ) 
+
+
+ALTER TABLE `adhi_user` ADD INDEX ( `emailid` ) 
+
+ALTER TABLE `adhi_classroom_videos_watch_list` ADD INDEX ( `video_id` ) 
+
+ALTER TABLE `adhi_classroom_videos_watch_list` ADD INDEX ( `user_id` ) 

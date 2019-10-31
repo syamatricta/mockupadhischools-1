@@ -1,0 +1,31 @@
+.clearfix:after, .clearfix:before{display:block; content:''; height:0; overflow:hidden; clear:both;}
+.clearfix{zoom:1; display:inline-block;}
+.float_l {display:block;float:left;}
+.float_r {display:block;float:right;}
+.center_wrapper{width:800px; margin:0 auto; padding:20px 5px;}
+.title_class {text-align:center; padding-bottom:30px;}
+.title_class h1{font-style:italic; font-size:36px; font-weight:bold; color:#a2a5a5;}
+.title_class h3{font-style:italic; font-size:22px; font-weight:bold; color:#a2a5a5;}
+.title_class span{font-style:italic; font-size:20px; font-weight:bold; color:#a5ce34;}
+.profile_photo_desc{background:url(images/profile_bg.png); background-repeat:no-repeat; width:785px;  height:326px; padding:20px 30px 30px;}
+.profile_desc{width:465px; padding: 30px 0 0 52px;  margin: 40px 0 0 0; background:url(images/punctuation-top.png) no-repeat top left;}
+.profile_desc p{font-size:12px; font-weight:normal; color:#b9b9b9;}
+.profile_desc span{font-size:12px; font-weight:bolder; color:#b9b9b9;}
+.caption_desc {}
+.caption_img{padding-bottom:30px;}
+.desc_01{font-size:14px; font-weight:bolder; color:#b9b9b9; padding-bottom:30px;}
+.desc_02{font-size:14px; font-weight:bolder; color:#b9b9b9;}
+.punctuation_top{}
+.punctuation_bottom{margin:2px 0 0 20px;}	
+.profile_desc_01{padding-bottom:30px;}
+.profile_desc_02{}
+.w100perc{width:100%;}
+.pos_rel{position: relative;}
+body {
+font-family: Arial, Helvetica, sans-serif;
+text-align: left;
+padding: 0px;
+margin-top:0px;
+background:url(<?php echo $image_url.'bg_01.jpg'?>) #000000 no-repeat center top;
+height:auto;
+}

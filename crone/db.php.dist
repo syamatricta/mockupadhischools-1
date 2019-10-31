@@ -1,0 +1,5 @@
+<?php
+
+$mysql_con = mysqli_connect('localhost', 'root', '', 'adhischools');
+
+?>

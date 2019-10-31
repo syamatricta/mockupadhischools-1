@@ -1,0 +1,367 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 0px;
+	background-image:url(<?php echo $image_url ?>bodybackground.jpg); 
+	background-repeat:repeat-x;
+	height:auto;
+	margin-top:0px;
+}
+p{
+	padding:0px;
+	margin:0px;
+}
+img{
+	border:0px;
+}
+DIV, TR, TD, SPAN, INPUT, SELECT{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	text-align:left;
+}
+
+TEXTAREA{
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+}
+th{
+	background-color:#E1E1E1; height:25px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.outermaindiv{
+ 	width:1024px;
+ 	margin:auto; 
+ 	margin-top:20px;
+ }
+ .error_border{ border:1px solid #FF0000; }
+ .success_border{ border:1px solid #E1E5DC; }
+ .placelogo {float:left; margin-left:13px; }
+ .placeadhischool{float:right; margin:33px 4px 0px 0px; }
+.headernavmain{
+	float:left;	
+ 	width:100%;
+}
+.headerleftnav{
+	float:left;
+}
+.headermiddlenav{
+	float:left;
+	width:997px;
+	height:55px;
+	background-image:url(<?php echo $image_url ?>adhi_middle_nav.jpg); 
+	background-repeat:repeat-x;
+}
+.navigationmain{
+	float:left;
+	margin-top:8px;
+}
+.navigationtext{
+	float:left;
+	color:#ffffff;
+	font-weight:bold;
+	font-size:14px;
+	margin:10px 20px 0px 16px;
+}
+.navigationtext a:visited,.navigationtext a:link,.navigationtext a:hover,.navigationtext a:active
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+.bottomnavmiddle{
+	float:left;
+	width:1004px;
+	height:41px;
+	background-image:url(<?php echo $image_url ?>bottom_nav_middle.jpg); 
+	background-repeat:repeat-x;
+}
+.bottomnavigationmain{
+	float:left;
+	width:100%;
+	padding-top:10px;
+}
+.bottomnavtextdiv{
+	float:left;
+	padding-top:12px;
+	color:#7E7E7E;
+}
+.copyright{
+	float:left;
+	padding-left:10px;
+}
+.blankdiv{
+	float:left;
+	width:420px;
+}
+.navigation_bottom{
+	float:left;
+	padding:0px 5px 0px 5px;
+}
+.div_row_first{
+	float:left;
+	background-color:#EDEDEF;
+	text-decoration: none;
+	font-weight: normal;
+	padding:10px 0px 10px 0px; 
+	width:100%;
+}
+.div_row_second{
+	float:left;
+	background-color:#F6FAFD;
+	text-decoration: none;
+	font-weight: normal;
+	padding:10px 0px 10px 0px; 
+	width:100%
+}
+
+.floatleft{float:left;}
+.floatright{float:right;}
+.clearboth{clear:both;}
+
+.adminmainlist{
+	float:left;
+	width:99%;
+	padding-bottom:10px;
+	border:1px solid #e1e5dc;
+	margin-left:1px;
+}
+.admininnercontentdiv{
+	margin:auto; 
+	width:98%;
+}
+.adminlistheadings{
+	float:left; 
+	font-weight:bold; 
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.pagination
+{
+	float:left; 
+	width:100%; 
+	text-align:center;
+}
+.listdata{
+	float:left;
+	width:100%;
+	
+}
+.adminpagebanner{
+	float:left;
+	padding:10px 0px 10px 0px; 
+	width:100%;
+	color:#000000;
+}
+.admintopheads{
+	float:left;
+	background-color:#A80403;
+	padding-left:2px; 
+	width:100%;
+	color:#ffffff;
+}
+.adminpagetitle{
+	float:left;
+	font-weight:bold;
+	font-size:16px;
+	padding-left:10px;
+}
+.leftsideheadings_view{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:10%;
+ }
+ .order_freezing{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:30%;
+ }
+ .middlecolon{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:5%;
+ 	text-align:center;
+ }
+ .rightsidedata_view{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:85%;
+ }
+ 
+ 
+.form-fields{padding-top:10px;width:800px;float:left; }
+.filed{
+width:30%;
+float:left;
+vertical-align:top;
+}
+
+display_error_msg 
+{
+
+    background-color:#FFAEAE;
+	border:1px solid #D893A1;
+	color:#333333;
+    font-size:12px;
+    font-weight:bold;
+    height:23px;
+    padding-left:30px;
+    padding-top:5px;
+	width:90%;
+}
+.page_error
+{
+	color:#FF0000;
+	font-weight:bold;
+}
+.backtolist{
+	width:40%;
+	clear:both;
+	font-weight:bold;
+	text-align:right;
+	padding:10px 0px 10px 0px;
+}
+.addressdivisionleft
+{
+	float:left;
+	width:50%;
+	padding:10px 0px 10px 0px;
+	clear:both;
+
+}
+.addressdivisionright
+{
+	float:left;
+	width:48%;
+	padding:10px 0px 10px 2%;
+}
+.rightsideaddress_view {
+	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:50%;
+ }
+ .leftsideaddressheadings_view{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:20%;
+ }
+ .addressmiddlecolon{
+ 	float:left;
+ 	padding:5px 0px 5px 0px;
+ 	width:9%;
+ 	text-align:center;
+ }
+ .middlebutton
+ {
+ 	width:100%;
+ 	text-align:center;
+ 	padding:30px 0px 10px 0px;
+ }	
+ .adminlogin{
+	float:left;
+	font-weight:bold;
+	width:70px;
+	margin-bottom:10px;
+ }
+ .adminlogintextbox{
+	float:left;
+	width:170px;
+	margin-bottom:10px;
+ }
+ .adminmaindiv{
+	float:left; 
+	width:500px; 
+	padding-top:60px; 
+	padding-bottom:60px; 
+	padding-left:315px; 
+}
+.logintext{
+ 	float:left; 
+ 	font-weight:bold; 
+ 	padding-bottom:10px; 
+ 	width:240px;
+}
+.filter {
+	float:left;
+	width:200px;
+}
+.instruction{
+	color:#8C8E8D;
+	width:30%;
+}
+.red_star{
+	color:#FF0000;
+}
+.page_success{
+	color:#659F1B;
+	font-weight:bold;
+}
+.nodata{
+	float:left; 
+	font-weight:bold; 
+	padding:10px 0px 10px 10px;
+}
+/*** Styles for dropdown menu */
+ .ulstyle {
+	border:1px solid #650304;
+	clear:both;
+	left:0;
+	list-style-type:none;
+	margin:0;
+	padding-left:0;
+	position:absolute;
+	text-align:left;
+	cursor:pointer;	
+	margin-top:15px;
+}
+
+.AboutNotSelected  {
+	background:#650304 none repeat scroll 0 0;
+	border-bottom:1px solid #A80403;
+	color:#E9E9DF;
+	font-weight:bold;
+	height:20px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding-left:5px;
+	vertical-align:middle;	
+}
+
+.AboutSelected {
+	background-color:#A80403;
+	border-bottom:1px solid #A80403;
+	color:#E9E9DF;
+	font-weight:bold;
+	height:20px;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding-left:5px;
+	vertical-align:middle;	
+}	
+
+.ulstyle a
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#FEFFFD;
+	cursor:pointer;
+}
+
+.AboutSelected div, .AboutNotSelected div{
+	font-size:13px;
+	font-weight:bold;
+	width:100%;
+	float:left;
+}
+.admin_total_amt
+{
+	color:#FDCC01;
+	font-weight:bold;
+}
+/** Ends Dropdown menu */

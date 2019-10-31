@@ -1,0 +1,232 @@
+ SUCCESS-------- 220 mx.google.com ESMTP s5sm6538551pbo.38 - gsmtp
+<br /><pre>hello: 250-mx.google.com at your service, [207.198.105.11]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH XOAUTH2 PLAIN-CLIENTTOKEN
+250 ENHANCEDSTATUSCODES
+</pre><pre>from: 250 2.1.0 OK s5sm6538551pbo.38 - gsmtp
+</pre><pre>to: 250 2.1.5 OK s5sm6538551pbo.38 - gsmtp
+</pre><pre>to: 250 2.1.5 OK s5sm6538551pbo.38 - gsmtp
+</pre><pre>data: 354  Go ahead s5sm6538551pbo.38 - gsmtp
+</pre>250 2.0.0 OK 1377069696 s5sm6538551pbo.38 - gsmtp
+<br /><pre>quit: 221 2.0.0 closing connection s5sm6538551pbo.38 - gsmtp
+</pre>Your message has been successfully sent using the following protocol: smtp<br /><pre>From: "Adhi Schools" <registration@adhischools.com>
+Return-Path: <registration@adhischools.com>
+To: kartik143@adhischools.com
+Reply-To: "Adhi Schools" <registration@adhischools.com>
+Subject: =?utf-8?Q?Registration_Details_Adhi_Real_Estate_School?=
+X-Sender: registration@adhischools.com
+X-Mailer: CodeIgniter
+X-Priority: 3 (Normal)
+Message-ID: <521470cf35a3f@adhischools.com>
+Mime-Version: 1.0
+
+
+Content-Type: multipart/alternative; boundary=&quot;B_ALT_521470cf35e20&quot;
+
+This is a multi-part message in MIME format.
+Your email application may not support this format.
+
+--B_ALT_521470cf35e20
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+Dear Kartik Subramaniam,
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Thank you for registering with Adhi Schools, LLC
+your California real estate education provider. We pride ourselves on
+service first and foremost. Open communication is important in any
+relationship and ours is no exception!
+
+So how do you contact us if you need to?
+ 
+1.Facebook at www.facebook.com/adhischools
+2.Twitter @adhischools
+3.YouTube at youtube.com/adhischoolsllc 
+
+ &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Don&amp;acute;t like any of that social media
+stuff? You can always send an email to me directly at:
+kartik@adhischools.com or call our office at 888 768 5285 if you have any
+questions.
+
+ 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Your shipment will be sent to you via FedEx. For
+each class you enrolled in Department of Real Estate guidelines dictate
+that you must wait a minimum of 18 calendar days from the date your
+received the course material before you attempt the final exam for that
+class. This 18 day requirement applies to each class that you signed up
+for. The Adhi Schools website will track the shipment and allow access to
+the final exams according to this rule.
+
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If you have signed up for an optional principles
+live class, you can go to any of our locations. Visit our website under the
+&amp;ldquo;Schedules and locations&amp;rdquo; link.
+
+ 
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;If you signed up for any other classes, check our
+schedule if you would like to come to any of our one day review sessions.
+If applicable, this is included in your enrollment.
+ 
+ 
+ Below are your registration details:
+Please find your login details.
+Login Id : kartik143@adhischools.comPassword : aarthika12 
+ 
+Payment Details
+
+Payment Method
+Paypal Payment Method 
+
+Address 
+1710 Merion Way 
+
+Country 
+United States 
+
+State 
+California 
+
+Zipcode 
+91789 
+
+Course Amount 
+ $75 
+
+Shipping Rate
+ $6.5 
+
+Total Amount 
+ $81.5 
+
+Registered Courses
+
+Course Code 
+
+Course Name Course Price 
+2079-04
+
+Real Estate Practice$75.00
+
+Tracking Information
+
+Tracking No
+972184910001796 
+
+With regards,Adhi Schools
+
+
+--B_ALT_521470cf35e20
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+Dear Kartik Subramaniam,&lt;br&gt;&lt;br&gt;&lt;table cellpadding=3D&quot;0&quot; cellspacing=3D&quot;0&quot; =
+border=3D&quot;0&quot; width=3D&quot;600&quot; &gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;justify&quot; &gt;&lt;p align=3D&quot;justify&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;=
+Thank you for registering with Adhi Schools, LLC your California real estat=
+e education provider. We pride ourselves on service first and foremost. Ope=
+n communication is important in any relationship and ours is no exception!&lt;=
+/p&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;left&quot;&gt;So how do you contact us if you need to?&lt;/td&gt;&lt;/tr=
+&gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt; &lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;left&quot;&gt;1.	Facebook at &lt;a href=3D&quot;www.facebook.com/adhisc=
+hools&quot;&gt;www.facebook.com/adhischools&lt;/a&gt;&lt;br /&gt;
+			2.	Twitter @adhischools&lt;br /&gt;
+			3.	YouTube at youtube.com/adhischoolsllc&lt;/td&gt; &lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;justify&quot; &gt;&lt;p align=3D&quot;justify&quot;&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp=
+;&amp;nbsp;Don&amp;acute;t like any of that social media stuff? You can always send=
+ an email to me directly at: &lt;a href=3D&quot;mailto:kartik@adhischools.com&quot;&gt;kart=
+ik@adhischools.com&lt;/a&gt; or call our office at 888 768 5285 if you have any q=
+uestions.&lt;/p&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt; &lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;justify&quot; &gt;&lt;p align=3D&quot;justify&quot; &gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp=
+;Your shipment will be sent to you via FedEx. For each class you enrolled i=
+n Department of Real Estate guidelines dictate that you must wait a minimum=
+ of 18 calendar days from the date your received the course material before=
+ you attempt the final exam for that class. &lt;b&gt;This 18 day requirement appl=
+ies to each class that you signed up for.&lt;/b&gt; The Adhi Schools website will=
+ track the shipment and allow access to the final exams according to this r=
+ule.&lt;/p&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt;&lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;justify&quot; &gt;&lt;p align=3D&quot;justify&quot;&gt;	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp=
+;If you have signed up for an optional principles live class, you can go to=
+ any of our locations. Visit our website under the &amp;ldquo;Schedules and loc=
+ations&amp;rdquo; link.&lt;/p&gt;&lt;/td&gt;
+			&lt;/tr&gt;
+			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt; &lt;/tr&gt;
+			&lt;tr&gt;&lt;td align=3D&quot;justify&quot; &gt;&lt;p align=3D&quot;justify&quot;&gt;	&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp=
+;If you signed up for any other classes, check our schedule if you would li=
+ke to come to any of our one day review sessions. If applicable, this is in=
+cluded in your enrollment.&lt;/p&gt;&lt;/td&gt;
+ 			&lt;/tr&gt;
+ 			&lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt; &lt;/tr&gt;
+ 			&lt;tr&gt; &lt;td&gt;Below are your registration details:&lt;br /&gt;
+			Please find your login details.&lt;br /&gt;
+			Login Id : kartik143@adhischools.com&lt;br /&gt;Password : aarthika12&lt;br /&gt;&lt;/t=
+d&gt; &lt;/tr&gt;
+		 &lt;tr&gt;&lt;td&gt;&lt;br /&gt;&lt;/td&gt; &lt;/tr&gt;
+			&lt;/table&gt;&lt;b&gt;Payment Details&lt;/b&gt;&lt;br&gt;&lt;table cellpadding=3D&quot;4&quot; cellspacing=
+=3D&quot;0&quot; border=3D&quot;1&quot; width=3D&quot;300&quot; style=3D&quot;border:#CCCCCC thin;&quot;&gt;
+
+
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Payment Method&lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Paypal Payment Method &lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Address &lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;1710 Merion Way &lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Country &lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;United States &lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;State &lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;California &lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Zipcode &lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;91789 &lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Course Amount &lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt; $75 &lt;/td&gt;
+				&lt;/tr&gt;
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Shipping Rate&lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt; $6.5 &lt;/td&gt;
+				&lt;/tr&gt;
+
+				&lt;tr&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Total Amount &lt;/td&gt;
+					&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt; $81.5 &lt;/td&gt;
+				&lt;/tr&gt;
+
+				&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Registered Courses&lt;/b&gt;&lt;br&gt;&lt;table cellpadding=3D&quot;4&quot; c=
+ellspacing=3D&quot;0&quot; border=3D&quot;1&quot; width=3D&quot;300&quot; style=3D&quot;border:#CCCCCC thin;&quot;&gt;
+							&lt;tr&gt;
+							&lt;td&gt;&lt;b&gt;Course Code&lt;/b&gt; &lt;/td&gt;
+
+							&lt;td&gt;&lt;b&gt;Course Name&lt;/b&gt; &lt;/td&gt;&lt;td&gt;&lt;b&gt;Course Price&lt;/b&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;
+							&lt;td&gt;2079-04&lt;/td&gt;
+
+							&lt;td&gt;Real Estate Practice&lt;/td&gt;&lt;td&gt;$75.00&lt;/td&gt;&lt;/tr&gt;
+
+						&lt;/table&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Tracking Information&lt;/b&gt;&lt;br&gt;&lt;table cellpadding=3D&quot;=
+4&quot; cellspacing=3D&quot;0&quot; border=3D&quot;1&quot; width=3D&quot;300&quot; style=3D&quot;border:#CCCCCC thi=
+n;&quot;&gt;
+
+							&lt;tr&gt;
+								&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;Tracking No&lt;/td&gt;
+								&lt;td align=3D&quot;left&quot; width=3D&quot;150&quot; &gt;972184910001796 &lt;/td&gt;
+							&lt;/tr&gt;
+						&lt;/table&gt;&lt;br&gt;&lt;br&gt;With regards,&lt;br&gt;&lt;br&gt;Adhi Schools
+
+--B_ALT_521470cf35e20--</pre>
